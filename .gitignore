@@ -39,3 +39,4 @@ myenv/
 # Logs
 *.log
 logs/
+*.bak

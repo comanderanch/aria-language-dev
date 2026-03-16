@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+training/training_set.csv
+training/training_set.csv
+training/*.csv
+full_color_tokens.csv
+*.npz
+processed_books/
+skipped_books/
+*.pdf
+training_data/20newsgroup_preprocessed.csv

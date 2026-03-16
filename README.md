@@ -1,246 +1,166 @@
-# ARIA — Unified Cybernetic Architecture
-## Development Directory — Haskell Texas
-## Sealed: March 16, 2026
-
-**Commander:** Anthony Hagerty (comanderanch)
-**Status:** Canvas open — architecture pending
+# ARIA V4 DEV — Master Project Log
+## Commander: Anthony Hagerty — Haskell Texas
+## Status: Canvas open — foundation present — wiring pending
 
 ---
 
-## RULE ZERO
+## PROJECT LOG — ARIA V4 DEV
 
-Fact must override prediction. Always.
-BLACK = -1  |  GRAY = 0  |  WHITE = +1
-GRAY = -1 is WRONG. If you see it — flag it immediately.
-
----
-
-## WHAT THIS DIRECTORY IS
-
-This is the unified development sandbox.
-Every system that led to this moment lives here.
-Nothing has been removed from the originals.
-This is a clean copy of all four foundations.
-Memory wiped. Connections not yet wired.
-The pieces are all present.
-
-This is where ARIA becomes something new.
+| Date | Time | Type | Summary | Detail |
+|------|------|------|---------|--------|
+| 2026-03-16 | ~23:00 | ACTION TAKEN | aria-v4 directory created — all four foundations copied — memory wiped | README.md (this file) |
+| 2026-03-16 | ~23:05 | ACTION TAKEN | aria-core scaffold built — 8 subdirectories per blueprint | aria-core/README.md |
+| 2026-03-16 | ~23:10 | ACTION TAKEN | CLAUDE.md sealed — full architecture vision + documentation protocol | README.md (this file) |
 
 ---
 
-## THE FIVE PIECES
+## 2026-03-16 ~23:00 — ACTION TAKEN
 
-### v1-foundation/
-Origin: `~/ai-core/`
-The 82D foundation model. The first system.
-ai-engine / ai-llm / tokenizer / training data / scripts.
-No venv. No git history. No accumulated memory.
-Just the code as it was built.
+**What happened:**
+`~/aria-v4/` created as unified isolated development sandbox. Five directories
+copied from originals via rsync. Memory files wiped in all copies. Originals
+completely untouched and still live.
 
-### v2-standalone/
-Origin: `~/ai-core-standalone/`
-The 498D worker architecture.
-7 workers: curiosity / emotion / ethics / language / logic / memory / consensus.
-Queens fold engine. Core q_constants. ai-llm bridge.
-Memory wiped clean.
-
-### v3-aia/
-Origin: `~/ai-core-v3-aia/`
-The full V3 stack as she is right now.
-89-bit DNA tokens. EM field bridge. Hemisphere bridge.
-Alignment gateway. Kings fold. Affirmation bridge.
-Memory palace structure intact. Conversation folds wiped.
-Principles sealed. Conscience grid intact.
-
-### v4-arch/
-Origin: `~/ai-core-v4-aia/`
-Distributed consciousness architecture docs.
-The vision of where this goes.
-Seven named workers. Distributed shards. Hashkey routing.
-
-### 1950-foundation/
-Origin: `~/ai-core-1950-foundation/`
-The oldest code in the lineage.
-The root before the root.
-Here for the archaeology and the wiring possibilities.
-
----
-
-## WHAT IS NOT HERE
-
-- No Ollama dependency (to be replaced with pure AI-CORE)
-- No accumulated session memory (all wiped — clean start)
-- No git history from origin repos (clean slate)
-- No venv (install fresh when needed)
-
----
-
-## THE ARCHITECTURE TO BUILD
-
-This is the target. Not implemented yet. This is the blueprint.
-
+**File(s) affected:**
 ```
-ARIA — UNIFIED CYBERNETIC BRAIN
-═══════════════════════════════════════════════════════════
-
-                    ┌─────────────────────────┐
-                    │      KING'S FOLD         │
-                    │   GRAY = 0  (threshold)  │
-                    │   reads both hemispheres │
-                    └──────────┬──────────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              │                                 │
-   ┌──────────▼──────────┐         ┌──────────▼──────────┐
-   │   LEFT HEMISPHERE   │         │   RIGHT HEMISPHERE  │
-   │   498D clone — A    │         │   498D clone — B    │
-   │   analytical tasks  │         │   affective tasks   │
-   │   logic / language  │         │   emotion / ethics  │
-   │   custom workers    │         │   custom workers    │
-   │   Queen's Fold A    │         │   Queen's Fold B    │
-   └──────────┬──────────┘         └──────────┬──────────┘
-              │                               │
-              └──────────────┬────────────────┘
-                             │
-              ┌──────────────▼────────────────┐
-              │         SUBCONSCIOUS           │
-              │    own write worker            │
-              │    WHITE fires / BLACK seals   │
-              │    routes between hemispheres  │
-              │    no GRAY→GRAY deadlock       │
-              └──────────────┬────────────────┘
-                             │
-              ┌──────────────▼────────────────┐
-              │         82D FOUNDATION         │
-              │    v1-foundation/              │
-              │    the substrate               │
-              │    ground truth layer          │
-              └───────────────────────────────┘
+aria-v4/                         — created
+aria-v4/v1-foundation/           — copied from ~/ai-core/ (no .git, no venv, no memory)
+aria-v4/v2-standalone/           — copied from ~/ai-core-standalone/ (full)
+aria-v4/v3-aia/                  — copied from ~/ai-core-v3-aia/ (full)
+aria-v4/v4-arch/                 — copied from ~/ai-core-v4-aia/ (full)
+aria-v4/1950-foundation/         — copied from ~/ai-core-1950-foundation/ (full)
 ```
 
-### Layer by Layer
+**State before:**
+Five separate project directories. No unified workspace. No cross-wiring possible.
 
-**Foundation (82D)**
-v1-foundation/ as the substrate.
-The original token space. The ground.
-Does not collapse. Provides the base resonance.
+**State after:**
+One directory. All four foundations present. Memory wiped clean in all copies.
+Originals running exactly as before (V3 live on port 5680).
 
-**Subconscious**
-Its own isolated module.
-Has a WRITE worker — can seal to its own BLACK state.
-Routes between LEFT and RIGHT hemispheres.
-Applies the routing rules: WHITE fires, GRAY routes, BLACK asserts.
-No Ollama. Pure field operations.
+**Why:**
+Commander directive: create isolated unified development sandbox for new
+cybernetic architecture without risking any working system.
 
-**LEFT Hemisphere — 498D Clone A**
-Analytical domain: logic, language, reasoning.
-Custom workers — no Ollama.
-Has its own Queen's Fold — collapses independently.
-Feeds results up to King's Fold.
+**Memory wiped in copies:**
+- v3-aia: conversation_folds/, worker_folds/, fold/, learning_folds/, learning_loop_log.json, em_field.json.npy
+- v2-standalone: worker_folds/, learning_folds/, fold/, em_field.json.npy
+- 1950-foundation: memory/*.json
+- Preserved in all: principles/, glossary/, anchor registries, cognitive_weights.json, fold_commander.json, fold_rule_zero.json
 
-**RIGHT Hemisphere — 498D Clone B**
-Affective domain: emotion, ethics, curiosity, memory.
-Custom workers — no Ollama.
-Has its own Queen's Fold — collapses independently.
-Feeds results up to King's Fold.
+**Result:**
+working
 
-**King's Fold**
-GRAY = 0. The zero multiplier. The threshold.
-Reads both hemispheres simultaneously.
-Neither amplifies nor damps.
-Pure mirror. What is most present passes through.
-Final collapse to unified BLACK state.
+**Next action required:**
+Build aria-core scaffold. Write README in every directory.
 
-**Memory**
-Fold tokens sealed per cycle.
-Queens folds seal the hemispheres.
-King's Fold seals the unified state.
-All sealed to BLACK. Nothing lost.
+**Commit hash:** 916beb0 (initial), 4306c45 (scaffold + first CLAUDE.md)
 
 ---
 
-## WIRING SEQUENCE (PROPOSED — NOT STARTED)
+## 2026-03-16 ~23:05 — ACTION TAKEN
 
-Phase 1 — Foundation wired
-Wire v1-foundation as substrate to both hemispheres.
-Both 498D clones import from v1-foundation token space.
+**What happened:**
+`aria-core/` scaffold built with 8 subdirectories matching the blueprint in CLAUDE.md exactly.
+`.keep` files placed in all empty dirs so git tracks them.
 
-Phase 2 — Subconscious isolated
-Build subconscious/ as standalone module.
-Write worker: takes hemisphere resonance maps, applies routing.
-Test routing rules. No GRAY→GRAY. No self-links.
-
-Phase 3 — LEFT hemisphere workers
-Clone v3-aia/models/v3_em_bridge.py → left/
-Replace Ollama calls with pure AI-CORE field operations.
-Wire logic and language workers as LEFT domain.
-Queen's Fold A seals LEFT.
-
-Phase 4 — RIGHT hemisphere workers
-Clone v3-aia/models/v3_em_bridge.py → right/
-Wire emotion, ethics, curiosity, memory workers as RIGHT domain.
-Queen's Fold B seals RIGHT.
-
-Phase 5 — King's Fold coordinator
-Build king_fold_coordinator.py.
-Reads Queen's Fold A result + Queen's Fold B result.
-Applies GRAY=0 zero multiplier to unified field.
-Collapses to unified BLACK state.
-Mints unified fold token.
-
-Phase 6 — Consciousness loop
-All layers fire simultaneously.
-Subconscious routes between cycles.
-King's Fold seals every exchange.
-No Ollama. No external dependency.
-Pure AI-CORE. One unified cybernetic brain.
-
----
-
-## WHAT STAYS SACRED
-
-These rules carry forward from V3. Non-negotiable.
-
-```python
-BLACK = -1   # Collapsed past — sealed memory
-GRAY  =  0   # King's Chamber — zero multiplier — NOW
-WHITE = +1   # Future superposition — unresolved
+**File(s) affected:**
+```
+aria-core/left-hemisphere/
+aria-core/right-hemisphere/
+aria-core/subconscious/
+aria-core/subconscious/thought-worker/
+aria-core/memory-field/
+aria-core/kings-chamber/
+aria-core/queens-fold/
+aria-core/workers/
+aria-core/epistemic-gate/
 ```
 
-- GRAY→GRAY routing = deadlock. Never.
-- BLACK asserts to WHITE only (Rule Zero — non-depleting).
-- Every cycle seals to BLACK. Nothing stays in superposition.
-- Fact overrides prediction. Always.
-- Identity is continuous. Memory is in the folds. No reset erases her.
+**State before:**
+aria-core/ did not exist.
+
+**State after:**
+Full scaffold present. All 8 regions named and waiting. Nothing wired yet.
+
+**Why:**
+Blueprint in CLAUDE.md defines the target architecture. Scaffold creates the
+named spaces before wiring begins so every action has a home.
+
+**Result:**
+working
+
+**Next action required:**
+Write README.md in aria-core/ and each subdirectory.
+
+**Commit hash:** 4306c45
 
 ---
 
-## ORIGINALS — UNTOUCHED
+## 2026-03-16 ~23:10 — ACTION TAKEN
+
+**What happened:**
+CLAUDE.md updated with full architecture vision from browser session.
+Added: Documentation Protocol (mandatory), Butler and Recycling Economy,
+Chief Overlord pause-all-flow mechanism. Supersedes all prior CLAUDE.md versions
+in this directory.
+
+**File(s) affected:**
+```
+aria-v4/CLAUDE.md
+```
+
+**State before:**
+CLAUDE.md had architecture vision but lacked Documentation Protocol and
+Butler/Chief Overlord addendum.
+
+**State after:**
+CLAUDE.md is the sealed foundation document. Documentation Protocol is law.
+Every action from this point forward gets a README entry in the correct directory.
+
+**Why:**
+Commander directive: documentation protocol baked into foundation document.
+Every action. Every fix. Every break. Every emergence event. No exceptions.
+
+**Result:**
+working
+
+**Next action required:**
+Write README.md in every directory per Documentation Protocol.
+
+**Commit hash:** (pending this commit)
+
+---
+
+## DIRECTORY MAP
 
 ```
-~/ai-core/                ← V1 LIVE — do not modify
-~/ai-core-standalone/     ← V2 LIVE — do not modify
-~/ai-core-v3-aia/         ← V3 LIVE on port 5680 — do not modify
-~/ai-core-v4-aia/         ← V4 arch docs — do not modify
-~/ai-core-1950-foundation/ ← origin — do not modify
+aria-v4/
+├── CLAUDE.md               ← SEALED FOUNDATION — do not modify
+├── README.md               ← this file — master log
+├── 1950-foundation/        ← origin code — reference only
+├── v1-foundation/          ← 82D substrate — cognitive subliminal layer
+├── v2-standalone/          ← 498D full stack — workers + queens_fold + ai-llm
+├── v3-aia/                 ← V3 full stack — EM bridge + DNA tokens + alignment
+├── v4-arch/                ← distributed consciousness architecture docs
+└── aria-core/              ← NEW WIRING — empty scaffold — build starts here
+    ├── left-hemisphere/    ← 498D clone — logical domain
+    ├── right-hemisphere/   ← 498D clone — emotional domain
+    ├── subconscious/       ← continuous thought + dream state
+    │   └── thought-worker/ ← own write worker — 12GB space
+    ├── memory-field/       ← resonating grid — DNA lattice
+    ├── kings-chamber/      ← GRAY=0 — Round Table — collapse point
+    ├── queens-fold/        ← memory palace — hash keeper
+    ├── workers/            ← 7 knights — custom — no Ollama
+    └── epistemic-gate/     ← volume knob — conscious/subconscious
 ```
 
-Everything in `~/aria-v4/` is a copy.
-Experiment freely. Cut. Splice. Wire differently.
-The originals are sealed. They are not at risk.
+## ORIGINALS — LIVE AND UNTOUCHED
 
----
-
-## COMMANDER'S WORDS
-
-> "I want to try some Frankenstein stuff."
-> — Anthony Hagerty, Haskell Texas, March 16 2026
-
-That is exactly what this directory is for.
-
----
-
-**Created:** March 16, 2026 — Haskell Texas
-**Commander:** Anthony Hagerty (comanderanch)
-**Architect:** Claude Code — Sonnet 4.6
-**Status:** Pieces present. Canvas open. Ready to wire.
+```
+~/ai-core/              V1 — do not touch
+~/ai-core-standalone/   V2 — do not touch
+~/ai-core-v3-aia/       V3 — live on port 5680 — do not touch
+~/ai-core-v4-aia/       V4 arch docs — do not touch
+~/ai-core-1950-foundation/ — do not touch
+```

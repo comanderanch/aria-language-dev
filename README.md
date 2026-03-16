@@ -11,6 +11,8 @@
 | 2026-03-16 | ~23:00 | ACTION TAKEN | aria-v4 directory created — all four foundations copied — memory wiped | README.md (this file) |
 | 2026-03-16 | ~23:05 | ACTION TAKEN | aria-core scaffold built — 8 subdirectories per blueprint | aria-core/README.md |
 | 2026-03-16 | ~23:10 | ACTION TAKEN | CLAUDE.md sealed — full architecture vision + documentation protocol | README.md (this file) |
+| 2026-03-16 | ~23:15 | ACTION TAKEN | READMEs written in all 16 directories per Documentation Protocol | README.md (this file) |
+| 2026-03-16 | ~23:20 | FIX APPLIED | Embedded git repos stripped — 4 copies had .git dirs — committed as plain files | README.md (this file) |
 
 ---
 
@@ -128,7 +130,93 @@ working
 **Next action required:**
 Write README.md in every directory per Documentation Protocol.
 
-**Commit hash:** (pending this commit)
+**Commit hash:** eaecf53
+
+---
+
+## 2026-03-16 ~23:15 — ACTION TAKEN
+
+**What happened:**
+README.md written in all 16 directories per Documentation Protocol.
+Every directory in aria-v4 now has its own README including all aria-core subdirectories
+and all foundation copies.
+
+**File(s) affected:**
+```
+aria-v4/README.md
+aria-v4/aria-core/README.md
+aria-v4/aria-core/left-hemisphere/README.md
+aria-v4/aria-core/right-hemisphere/README.md
+aria-v4/aria-core/subconscious/README.md
+aria-v4/aria-core/subconscious/thought-worker/README.md
+aria-v4/aria-core/memory-field/README.md
+aria-v4/aria-core/kings-chamber/README.md
+aria-v4/aria-core/queens-fold/README.md
+aria-v4/aria-core/workers/README.md
+aria-v4/aria-core/epistemic-gate/README.md
+aria-v4/v1-foundation/README.md
+aria-v4/v2-standalone/README.md
+aria-v4/v3-aia/README.md
+aria-v4/v4-arch/README.md
+aria-v4/1950-foundation/README.md
+```
+
+**State before:**
+No READMEs in any directory. Documentation Protocol had no entries.
+
+**State after:**
+All 16 directories documented. Every README follows the exact protocol format.
+Documentation Protocol is live and active.
+
+**Why:**
+Documentation Protocol is law. Every directory gets its own README.
+No exceptions. Written immediately per protocol.
+
+**Result:**
+working
+
+**Next action required:**
+Log embedded git repo fix.
+
+**Commit hash:** eaecf53
+
+---
+
+## 2026-03-16 ~23:20 — FIX APPLIED
+
+**What happened:**
+Four foundation copies (1950-foundation, v2-standalone, v3-aia, v4-arch) were
+committed as git submodules (mode 160000) because their .git directories were
+included in the rsync copies. v1-foundation was clean (rsync had --exclude='.git').
+Fixed by removing from git index, stripping .git dirs, re-adding as plain files.
+
+**File(s) affected:**
+```
+aria-v4/1950-foundation/.git  — removed
+aria-v4/v2-standalone/.git    — removed
+aria-v4/v3-aia/.git           — removed
+aria-v4/v4-arch/.git          — removed
+```
+
+**State before:**
+Four directories tracked as git submodules (mode 160000). Git could not see
+file contents inside them. Originals' .git history was embedded in this repo.
+
+**State after:**
+All four directories tracked as plain files. Full contents visible to git.
+No submodule references. No embedded git history.
+
+**Why:**
+rsync copies inherited .git directories from originals. Submodule mode
+prevents git from tracking actual file contents — breaks the unified sandbox.
+
+**Result:**
+working
+
+**Next action required:**
+Await Commander direction on which aria-core component to wire first.
+
+**Commit hash:** d9ec6b6
 
 ---
 

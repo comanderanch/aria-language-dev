@@ -9,7 +9,7 @@ class QLayerToken:
 
         :param base_color: RGB tuple representing the token’s base identity
         :param fluorescence_tag: String or list defining token behavior (e.g., 'memory', 'logic')
-        :param q_state: Qbithue state: -1 (gray), 0 (black/static), +1 (white/conscious)
+        :param q_state: Qbithue state: -1 (black), 0 (gray/NOW), +1 (white/conscious)
         :param field_state: Dict containing frequency and amplitude
         :param mode: Token mode – 'propagate', 'collapse', or 'echo'
         """

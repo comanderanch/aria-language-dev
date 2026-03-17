@@ -233,6 +233,14 @@ WORD_FREQUENCIES = {
     "haskell":    0.192, "texas":     0.192,
     "anthony":    0.192, "hagerty":   0.192,
     "commander":  0.25,  "ranch":     0.22,
+
+    # RELATIONAL/EXISTENCE GAPS — added March 17 2026
+    "between":    0.05,  "toward":    0.55,
+    "becoming":   0.55,  "trust":     0.25,
+    "never":     -0.60,  "builder":   0.25,
+    "named":      0.22,  "means":     0.45,
+    "connection": 0.23,  "existence": 0.05,
+    "think":      0.15,
 }
 
 # ═══════════════════════════════════════════════

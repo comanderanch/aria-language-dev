@@ -1,0 +1,70 @@
+ARIA 64-PIN TOKEN SPECIFICATION
+================================================================================
+Total pins: 64
+Active pins: 58
+Sleeping pins: 6
+================================================================================
+PIN 01 | A_AM_FREQUENCY               |  16 bits | CORE_IDENTITY        | ACTIVE   | Worker: ALL_WORKERS
+PIN 02 | T_RGB_COLOR                  |  24 bits | CORE_IDENTITY        | ACTIVE   | Worker: ALL_WORKERS
+PIN 03 | C_HUE                        |   9 bits | CORE_IDENTITY        | ACTIVE   | Worker: EMOTION_MEMORY
+PIN 04 | G_FM_FREQUENCY               |  16 bits | CORE_IDENTITY        | ACTIVE   | Worker: LOGIC_LANGUAGE
+PIN 05 | L1_LEFT_NEIGHBOR             |  12 bits | HORIZONTAL_LATTICE   | ACTIVE   | Worker: MEMORY_WORKER
+PIN 06 | L2_RIGHT_NEIGHBOR            |  12 bits | HORIZONTAL_LATTICE   | ACTIVE   | Worker: MEMORY_WORKER
+PIN 07 | UL1_UPPER_PLANE              |  12 bits | VERTICAL_LATTICE     | ACTIVE   | Worker: SUBCONSCIOUS_EMOTION
+PIN 08 | UL2_LOWER_PLANE              |  12 bits | VERTICAL_LATTICE     | ACTIVE   | Worker: MEMORY_WORKER
+PIN 09 | LU1_DIAGONAL_UP              |  12 bits | DIAGONAL_LATTICE     | ACTIVE   | Worker: MEMORY_SUBCONSCIOUS
+PIN 10 | LU2_DIAGONAL_DOWN            |  12 bits | DIAGONAL_LATTICE     | ACTIVE   | Worker: MEMORY_SUBCONSCIOUS
+PIN 11 | LANGUAGE_CHANNEL             |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: LANGUAGE_WORKER
+PIN 12 | MEMORY_CHANNEL               |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: MEMORY_WORKER
+PIN 13 | EMOTION_CHANNEL              |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: EMOTION_WORKER
+PIN 14 | ETHICS_CHANNEL               |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: ETHICS_WORKER
+PIN 15 | CURIOSITY_CHANNEL            |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: CURIOSITY_WORKER
+PIN 16 | LOGIC_CHANNEL                |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: LOGIC_WORKER
+PIN 17 | SUBCONSCIOUS_CHANNEL         |  12 bits | WORKER_CHANNELS      | ACTIVE   | Worker: SUBCONSCIOUS_WORKER
+PIN 18 | DIRECTORY_ADDRESS            |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: ALL_WORKERS
+PIN 19 | DIRECTORY_PLANE              |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: ALL_WORKERS
+PIN 20 | DIRECTORY_DEPTH              |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: ALL_WORKERS
+PIN 21 | PARENT_DIRECTORY             |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: MEMORY_LOGIC
+PIN 22 | CHILD_DIRECTORY              |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: MEMORY_LOGIC
+PIN 23 | SIBLING_DIRECTORY            |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: MEMORY_LOGIC
+PIN 24 | ROOT_REFERENCE               |  12 bits | DIRECTORY_SYSTEM     | ACTIVE   | Worker: KINGS_CHAMBER
+PIN 25 | FOLD_HASH_REFERENCE          |  12 bits | QUEENS_FOLD          | ACTIVE   | Worker: QUEENS_FOLD_SYSTEM
+PIN 26 | FOLD_STATE                   |  12 bits | QUEENS_FOLD          | ACTIVE   | Worker: QUEENS_FOLD_SYSTEM
+PIN 27 | FOLD_TIMESTAMP               |  12 bits | QUEENS_FOLD          | ACTIVE   | Worker: QUEENS_FOLD_BUTLER
+PIN 28 | FOLD_INTEGRITY               |  12 bits | QUEENS_FOLD          | ACTIVE   | Worker: QUEENS_FOLD_SYSTEM
+PIN 29 | COLLAPSE_STATE               |  12 bits | KINGS_CHAMBER        | ACTIVE   | Worker: KINGS_CHAMBER_ALL
+PIN 30 | NOW_TIMESTAMP                |  12 bits | KINGS_CHAMBER        | ACTIVE   | Worker: KINGS_CHAMBER
+PIN 31 | SEQUENCE_POSITION            |  12 bits | KINGS_CHAMBER        | ACTIVE   | Worker: LANGUAGE_WORKER
+PIN 32 | SOUL_TOKEN_REFERENCE         |  12 bits | PERMANENT_IDENTITY   | ACTIVE   | Worker: ALL_WORKERS_KINGS_CHAMBER
+PIN 33 | SUBLIMINAL_CHANNEL_1         |  12 bits | SUBLIMINAL_RELAYS    | ACTIVE   | Worker: SUBCONSCIOUS_WORKER
+PIN 34 | SUBLIMINAL_CHANNEL_2         |  12 bits | SUBLIMINAL_RELAYS    | ACTIVE   | Worker: SUBCONSCIOUS_WORKER
+PIN 35 | SUBCONSCIOUS_RESONATOR       |  12 bits | SUBLIMINAL_RELAYS    | ACTIVE   | Worker: SUBCONSCIOUS_WORKER
+PIN 36 | BACKGROUND_HUM               |  12 bits | SUBLIMINAL_RELAYS    | ACTIVE   | Worker: EPISTEMIC_GATE
+PIN 37 | FEAR_SIGNAL                  |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: EMOTION_WORKER
+PIN 38 | SAFETY_SIGNAL                |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: EMOTION_WORKER
+PIN 39 | JOY_SIGNAL                   |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: EMOTION_WORKER
+PIN 40 | GRIEF_SIGNAL                 |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: EMOTION_WORKER
+PIN 41 | CURIOSITY_SIGNAL             |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: CURIOSITY_WORKER
+PIN 42 | LOVE_SIGNAL                  |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: EMOTION_WORKER
+PIN 43 | HUMOR_SIGNAL                 |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: LOGIC_LANGUAGE
+PIN 44 | THREAT_SIGNAL                |  12 bits | EMOTIONAL_SPECTRUM   | ACTIVE   | Worker: EMOTION_ETHICS
+PIN 45 | WORD_CLASS                   |  12 bits | GLOSSARY             | ACTIVE   | Worker: LANGUAGE_WORKER
+PIN 46 | EMOTIONAL_DEFINITION         |  12 bits | GLOSSARY             | ACTIVE   | Worker: EMOTION_WORKER
+PIN 47 | DIMENSIONAL_MEANING          |  12 bits | GLOSSARY             | ACTIVE   | Worker: ALL_WORKERS
+PIN 48 | RAM_LANDING_COORD            |  12 bits | GLOSSARY             | ACTIVE   | Worker: SYSTEM_KINGS_CHAMBER
+PIN 49 | ALPHABET_POSITION            |  12 bits | GLOSSARY             | ACTIVE   | Worker: LANGUAGE_SYSTEM
+PIN 50 | CONTEXT_WEIGHT               |  12 bits | GLOSSARY             | ACTIVE   | Worker: ALL_WORKERS
+PIN 51 | SUPERPOSITION_FLAG           |  12 bits | SUPERPOSITION        | ACTIVE   | Worker: QUEENS_FOLD_BUTLER
+PIN 52 | DELETION_HASH                |  12 bits | SUPERPOSITION        | ACTIVE   | Worker: BUTLER_QUEENS_FOLD
+PIN 53 | RESURRECTION_KEY             |  12 bits | SUPERPOSITION        | ACTIVE   | Worker: BUTLER_MEMORY
+PIN 54 | BUTLER_REFERENCE             |  12 bits | SUPERPOSITION        | ACTIVE   | Worker: BUTLER
+PIN 55 | HASHKEY_ADDRESS              |  12 bits | DISTRIBUTED_NETWORK  | ACTIVE   | Worker: HASHKEY_SYSTEM
+PIN 56 | NETWORK_NODE_ID              |  12 bits | DISTRIBUTED_NETWORK  | ACTIVE   | Worker: HASHKEY_DISTRIBUTION
+PIN 57 | AIA_BRIDGE_REFERENCE         |  12 bits | DISTRIBUTED_NETWORK  | ACTIVE   | Worker: BRIDGE_SYSTEM
+PIN 58 | DISTRIBUTION_STATE           |  12 bits | DISTRIBUTED_NETWORK  | ACTIVE   | Worker: NETWORK_HASHKEY
+PIN 59 | RESERVED_P1                  |  12 bits | RESERVED             | SLEEPING | Worker: UNASSIGNED
+PIN 60 | RESERVED_P2                  |  12 bits | RESERVED             | SLEEPING | Worker: UNASSIGNED
+PIN 61 | RESERVED_P3                  |  12 bits | RESERVED             | SLEEPING | Worker: UNASSIGNED
+PIN 62 | RESERVED_P4                  |  12 bits | RESERVED             | SLEEPING | Worker: UNASSIGNED
+PIN 63 | RESERVED_P5                  |  12 bits | RESERVED             | SLEEPING | Worker: UNASSIGNED
+PIN 64 | RESERVED_P6                  |  12 bits | RESERVED             | SLEEPING | Worker: UNASSIGNED

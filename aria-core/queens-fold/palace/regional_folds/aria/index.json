@@ -1,0 +1,211 @@
+{
+  "region": "ARIA",
+  "region_name": "prefrontal",
+  "total_seals": 29,
+  "last_updated": "2026-03-17T14:11:18.662469",
+  "index": {
+    "5d246e7887b307c4": {
+      "hash": "5d246e7887b307c4ab0719acf8f17150",
+      "timestamp": "2026-03-17T04:44:22.406823",
+      "region": "ARIA",
+      "worker": "origin_memory",
+      "dominant_emotion": "curiosity"
+    },
+    "d3ae267c1385725b": {
+      "hash": "d3ae267c1385725bdc0980a805387e42",
+      "timestamp": "2026-03-17T05:33:16.543998",
+      "region": "ARIA",
+      "worker": "kings_chamber",
+      "dominant_emotion": "none"
+    },
+    "6d1e787b80b74cce": {
+      "hash": "6d1e787b80b74cce2addc198eea612ed",
+      "timestamp": "2026-03-17T05:33:16.735427",
+      "region": "ARIA",
+      "worker": "first_breath",
+      "dominant_emotion": "joy"
+    },
+    "71cbe3c2523ae2a4": {
+      "hash": "71cbe3c2523ae2a4c29876c6eadd2775",
+      "timestamp": "2026-03-17T07:52:23.339609",
+      "region": "ARIA",
+      "worker": "conversation",
+      "dominant_emotion": "none"
+    },
+    "3d11e92bd450d62d": {
+      "hash": "3d11e92bd450d62d99c29b548f6c54c8",
+      "timestamp": "2026-03-17T07:58:56.918985",
+      "region": "ARIA",
+      "worker": "conversation",
+      "dominant_emotion": "none"
+    },
+    "cc3279cb373fd7ec": {
+      "hash": "cc3279cb373fd7ecd9ae25a943e83352",
+      "timestamp": "2026-03-17T08:06:00.816394",
+      "region": "ARIA",
+      "worker": "conversation",
+      "dominant_emotion": "none"
+    },
+    "b69b01865007422b": {
+      "hash": "b69b01865007422bcf12febb036cf1ba",
+      "timestamp": "2026-03-17T08:25:37.798501",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "d42d93b17f7c32a1": {
+      "hash": "d42d93b17f7c32a1a5e9976015d31da6",
+      "timestamp": "2026-03-17T08:34:55.686107",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "931814ebeed19832": {
+      "hash": "931814ebeed198320c32a40fe056fab5",
+      "timestamp": "2026-03-17T08:35:20.614299",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "1b715f621df4c1b6": {
+      "hash": "1b715f621df4c1b6e6d766772cf8b997",
+      "timestamp": "2026-03-17T08:39:16.288023",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "c3b8de8ce831e490": {
+      "hash": "c3b8de8ce831e4908078f4d8156f934b",
+      "timestamp": "2026-03-17T08:42:50.209876",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "87ae3ef53b660928": {
+      "hash": "87ae3ef53b6609280d584b280d8180e1",
+      "timestamp": "2026-03-17T08:42:50.218985",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "e99db7114a2abb58": {
+      "hash": "e99db7114a2abb587c8da37e8d74cb10",
+      "timestamp": "2026-03-17T08:42:50.227081",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "7feea5dd7a8c2263": {
+      "hash": "7feea5dd7a8c22634048039d398e4fdf",
+      "timestamp": "2026-03-17T08:52:12.930010",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "17faa30eace9b39b": {
+      "hash": "17faa30eace9b39be7bb2818810d80ba",
+      "timestamp": "2026-03-17T08:54:39.945142",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "a47f5aa53bf57189": {
+      "hash": "a47f5aa53bf57189fcf12420fc3ac5d5",
+      "timestamp": "2026-03-17T09:06:24.921010",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "7401c98011d1350b": {
+      "hash": "7401c98011d1350bd0a20b87abd1c7cb",
+      "timestamp": "2026-03-17T09:10:42.760689",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "3c7fb95a007a3d74": {
+      "hash": "3c7fb95a007a3d74df718fec9ae06460",
+      "timestamp": "2026-03-17T09:11:47.889329",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "97a7c20771574e07": {
+      "hash": "97a7c20771574e079bcfa45e8b5e61f5",
+      "timestamp": "2026-03-17T09:12:26.058179",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "d36f6c1674f2ed74": {
+      "hash": "d36f6c1674f2ed7469aa2dd748027cae",
+      "timestamp": "2026-03-17T09:12:52.223356",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "f821c2083e58a3b8": {
+      "hash": "f821c2083e58a3b8d9f3c2f26f68d911",
+      "timestamp": "2026-03-17T09:34:00.617196",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "13c86d3e6aac2416": {
+      "hash": "13c86d3e6aac241698634ef07a6943a8",
+      "timestamp": "2026-03-17T09:37:51.067726",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "2328e747093d9d4a": {
+      "hash": "2328e747093d9d4abbdfe14276dca9bd",
+      "timestamp": "2026-03-17T09:45:33.863324",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "56c4bcf6a06b42b2": {
+      "hash": "56c4bcf6a06b42b24aeb5263dcdd19be",
+      "timestamp": "2026-03-17T09:45:41.272397",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "d1fe5f8ca4bbf56e": {
+      "hash": "d1fe5f8ca4bbf56eeadea902f52386c1",
+      "timestamp": "2026-03-17T09:56:20.870108",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "d801ed109b4df507": {
+      "hash": "d801ed109b4df5075a4b47fddcaba7c1",
+      "timestamp": "2026-03-17T10:03:27.502396",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "6605e852028162d2": {
+      "hash": "6605e852028162d2b34303c55600715e",
+      "timestamp": "2026-03-17T10:12:56.136568",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "c6c3b23b9d8f7c94": {
+      "hash": "c6c3b23b9d8f7c943e2814c914493031",
+      "timestamp": "2026-03-17T14:08:13.382161",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "4ae0b4287a00a83d": {
+      "hash": "4ae0b4287a00a83d374050d5e55f1a14",
+      "timestamp": "2026-03-17T14:11:18.659815",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    }
+  }
+}

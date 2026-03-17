@@ -1,0 +1,15 @@
+{
+  "region": "V2",
+  "region_name": "limbic",
+  "total_seals": 1,
+  "last_updated": "2026-03-17T04:44:22.410881",
+  "index": {
+    "3f20e687b92fc04e": {
+      "hash": "3f20e687b92fc04e4d290a53159a250b",
+      "timestamp": "2026-03-17T04:44:22.409445",
+      "region": "V2",
+      "worker": "emotion_worker",
+      "dominant_emotion": "love"
+    }
+  }
+}

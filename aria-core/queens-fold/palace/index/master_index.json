@@ -1,0 +1,541 @@
+{
+  "total_sealed": 31,
+  "last_updated": "2026-03-17T14:11:18.663951",
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "regions": [
+    "V1",
+    "V2",
+    "V3",
+    "ARIA"
+  ],
+  "index": {
+    "5d246e7887b307c4": {
+      "hash": "5d246e7887b307c4ab0719acf8f17150",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T04:44:22.408918",
+      "worker": "origin_memory",
+      "emotional": {
+        "dominant": "curiosity",
+        "curiosity": 0.95,
+        "love": 0.42,
+        "joy": 0.78
+      },
+      "cross": []
+    },
+    "3f20e687b92fc04e": {
+      "hash": "3f20e687b92fc04e4d290a53159a250b",
+      "region": "V2",
+      "timestamp": "2026-03-17T04:44:22.411117",
+      "worker": "emotion_worker",
+      "emotional": {
+        "dominant": "love",
+        "love": 0.192,
+        "joy": 0.178,
+        "safety": 0.165
+      },
+      "cross": [
+        "ARIA",
+        "V3"
+      ]
+    },
+    "34125caf3eabdb89": {
+      "hash": "34125caf3eabdb89beaf8320290f527e",
+      "region": "V3",
+      "timestamp": "2026-03-17T04:44:22.414081",
+      "worker": "logic_worker",
+      "emotional": {
+        "dominant": "certainty",
+        "logic": 0.95,
+        "ethics": 0.88,
+        "curiosity": 0.72
+      },
+      "cross": []
+    },
+    "d3ae267c1385725b": {
+      "hash": "d3ae267c1385725bdc0980a805387e42",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T05:33:16.734019",
+      "worker": "kings_chamber",
+      "emotional": {
+        "fear": 0.5550000071525574,
+        "safety": 0.4623671571413676,
+        "joy": 0.800000011920929,
+        "grief": 0.6899999976158142,
+        "curiosity": 0.20557548105716705,
+        "love": 0.800000011920929,
+        "humor": 0.0,
+        "threat": 0.6100000143051147
+      },
+      "cross": []
+    },
+    "6d1e787b80b74cce": {
+      "hash": "6d1e787b80b74cce2addc198eea612ed",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T05:33:16.781781",
+      "worker": "first_breath",
+      "emotional": {
+        "dominant": "joy",
+        "fear": 0.5550000071525574,
+        "safety": 0.4623671571413676,
+        "joy": 0.800000011920929,
+        "grief": 0.6899999976158142,
+        "curiosity": 0.20557548105716705,
+        "love": 0.800000011920929,
+        "humor": 0.0,
+        "threat": 0.6100000143051147
+      },
+      "cross": []
+    },
+    "71cbe3c2523ae2a4": {
+      "hash": "71cbe3c2523ae2a4c29876c6eadd2775",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T07:52:23.342849",
+      "worker": "conversation",
+      "emotional": {
+        "fear": 0.07580145355314016,
+        "safety": -1.21492404739062,
+        "joy": 0.37050269544124603,
+        "grief": 0.2807397395372391,
+        "curiosity": 0.049704067409038544,
+        "love": 0.391043355067571,
+        "humor": -0.05459527174631754,
+        "threat": -0.019523756578564644
+      },
+      "cross": []
+    },
+    "3d11e92bd450d62d": {
+      "hash": "3d11e92bd450d62d99c29b548f6c54c8",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T07:58:56.922482",
+      "worker": "conversation",
+      "emotional": {
+        "fear": 0.3114354908466339,
+        "safety": -0.3808937668800354,
+        "joy": 0.3082234412431717,
+        "grief": 0.4173920601606369,
+        "curiosity": -0.6523524522781372,
+        "love": 0.1799126143256823,
+        "humor": -0.09972000122070312,
+        "threat": -0.3824567198753357
+      },
+      "cross": []
+    },
+    "cc3279cb373fd7ec": {
+      "hash": "cc3279cb373fd7ecd9ae25a943e83352",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:06:00.818846",
+      "worker": "conversation",
+      "emotional": {
+        "fear": -0.19415736198425293,
+        "safety": -0.5187408129374186,
+        "joy": 0.9271574169397354,
+        "grief": -0.6387414485216141,
+        "curiosity": -0.18893218040466309,
+        "love": 0.34139159321784973,
+        "humor": 0.44421452283859253,
+        "threat": 0.5536627173423767
+      },
+      "cross": []
+    },
+    "b69b01865007422b": {
+      "hash": "b69b01865007422bcf12febb036cf1ba",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:25:37.799930",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09600000269711018,
+        "safety": -0.294941504796346,
+        "joy": 0.34200000762939453,
+        "grief": 0.25560000725090504,
+        "curiosity": 0.8710743635892868,
+        "love": 0.09682115912437439,
+        "humor": 0.0,
+        "threat": 0.1728000044822693
+      },
+      "cross": []
+    },
+    "d42d93b17f7c32a1": {
+      "hash": "d42d93b17f7c32a1a5e9976015d31da6",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:34:55.689550",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09833333361893892,
+        "safety": -0.41869401931762695,
+        "joy": 0.3466666713356972,
+        "grief": 0.25816666800528765,
+        "curiosity": 0.40036071091890335,
+        "love": 0.31144430736700696,
+        "humor": 0.0,
+        "threat": 0.1770000010728836
+      },
+      "cross": []
+    },
+    "931814ebeed19832": {
+      "hash": "931814ebeed198320c32a40fe056fab5",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:35:20.617386",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09600000269711018,
+        "safety": -0.1560321773091952,
+        "joy": 0.34200000762939453,
+        "grief": 0.25560000725090504,
+        "curiosity": -0.21494673192501068,
+        "love": -0.02633802096048991,
+        "humor": 0.0,
+        "threat": 0.1728000044822693
+      },
+      "cross": []
+    },
+    "1b715f621df4c1b6": {
+      "hash": "1b715f621df4c1b6e6d766772cf8b997",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:39:16.289666",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09600000269711018,
+        "safety": 0.565875639518102,
+        "joy": 0.34200000762939453,
+        "grief": 0.25560000725090504,
+        "curiosity": 0.249185249209404,
+        "love": -0.132285475730896,
+        "humor": 0.0,
+        "threat": 0.1728000044822693
+      },
+      "cross": []
+    },
+    "c3b8de8ce831e490": {
+      "hash": "c3b8de8ce831e4908078f4d8156f934b",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:42:50.212349",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.06171428505331278,
+        "safety": 1.1493138472239177,
+        "joy": 0.2734285667538643,
+        "grief": 0.21788571123033762,
+        "curiosity": 0.9221091195940971,
+        "love": 0.08875797688961029,
+        "humor": 0.0,
+        "threat": 0.11108571290969849
+      },
+      "cross": []
+    },
+    "87ae3ef53b660928": {
+      "hash": "87ae3ef53b6609280d584b280d8180e1",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:42:50.221884",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.1500000050291419,
+        "safety": 0.45169734954833984,
+        "joy": 0.45000001788139343,
+        "grief": 0.31500001158565283,
+        "curiosity": 0.3619973808526993,
+        "love": 0.11442681153615315,
+        "humor": 0.0,
+        "threat": 0.27000001072883606
+      },
+      "cross": []
+    },
+    "e99db7114a2abb58": {
+      "hash": "e99db7114a2abb587c8da37e8d74cb10",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:42:50.227906",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.19000000320374966,
+        "safety": 0.8031016985575358,
+        "joy": 0.5300000011920929,
+        "grief": 0.3590000029653311,
+        "curiosity": 0.15949747525155544,
+        "love": 0.3109365701675415,
+        "humor": 0.0,
+        "threat": 0.34200000762939453
+      },
+      "cross": []
+    },
+    "7feea5dd7a8c2263": {
+      "hash": "7feea5dd7a8c22634048039d398e4fdf",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:52:12.932969",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.13033332955092192,
+        "safety": -0.5010685722033182,
+        "joy": 0.41066667437553406,
+        "grief": 0.29336667340248823,
+        "curiosity": -0.2168658971786499,
+        "love": 0.49556322892506915,
+        "humor": 0.0,
+        "threat": 0.2345999926328659
+      },
+      "cross": []
+    },
+    "17faa30eace9b39b": {
+      "hash": "17faa30eace9b39be7bb2818810d80ba",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T08:54:39.948245",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.01999999932013452,
+        "safety": 0.10165607929229736,
+        "joy": 0.1900000013411045,
+        "grief": 0.17200000188313425,
+        "curiosity": 0.2757737524807453,
+        "love": 0.21332785735527673,
+        "humor": 0.0,
+        "threat": 0.035999998450279236
+      },
+      "cross": []
+    },
+    "a47f5aa53bf57189": {
+      "hash": "a47f5aa53bf57189fcf12420fc3ac5d5",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:06:24.925462",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.059235294815152884,
+        "safety": -0.2996628483136495,
+        "joy": 0.2684705890715122,
+        "grief": 0.21515882527455688,
+        "curiosity": 0.38407881930470467,
+        "love": -0.023954667150974274,
+        "humor": 0.0,
+        "threat": 0.10662353038787842
+      },
+      "cross": []
+    },
+    "7401c98011d1350b": {
+      "hash": "7401c98011d1350bd0a20b87abd1c7cb",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:10:42.764420",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.08199999760836363,
+        "safety": 0.29751914242903393,
+        "joy": 0.3139999955892563,
+        "grief": 0.24019999336451292,
+        "curiosity": 0.17125973105430603,
+        "love": 0.3066205382347107,
+        "humor": 0.0,
+        "threat": 0.147599995136261
+      },
+      "cross": []
+    },
+    "3c7fb95a007a3d74": {
+      "hash": "3c7fb95a007a3d74df718fec9ae06460",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:11:47.892861",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.07536363322287798,
+        "safety": -0.4031984210014343,
+        "joy": 0.3007272779941559,
+        "grief": 0.23290000576525927,
+        "curiosity": -0.30127498507499695,
+        "love": 0.07450135548909505,
+        "humor": 0.0,
+        "threat": 0.1356545388698578
+      },
+      "cross": []
+    },
+    "97a7c20771574e07": {
+      "hash": "97a7c20771574e079bcfa45e8b5e61f5",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:12:26.061266",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.02933333325199783,
+        "safety": -1.173817366361618,
+        "joy": 0.20866666175425053,
+        "grief": 0.1822666625957936,
+        "curiosity": -0.11976276896893978,
+        "love": -0.06919802601138751,
+        "humor": 0.0,
+        "threat": 0.052799999713897705
+      },
+      "cross": []
+    },
+    "d36f6c1674f2ed74": {
+      "hash": "d36f6c1674f2ed7469aa2dd748027cae",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:12:52.226313",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.01999999932013452,
+        "safety": -0.2179474731286367,
+        "joy": 0.1900000013411045,
+        "grief": 0.17200000188313425,
+        "curiosity": -0.3742801360785961,
+        "love": 0.2633241241176923,
+        "humor": 0.0,
+        "threat": 0.035999998450279236
+      },
+      "cross": []
+    },
+    "f821c2083e58a3b8": {
+      "hash": "f821c2083e58a3b8d9f3c2f26f68d911",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:34:00.629347",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.07433333341032267,
+        "safety": -0.3817524512608846,
+        "joy": 0.29866666346788406,
+        "grief": 0.2317666644230485,
+        "curiosity": 0.023929588496685028,
+        "love": 0.4707563767830531,
+        "humor": 0.0,
+        "threat": 0.13379999995231628
+      },
+      "cross": []
+    },
+    "13c86d3e6aac2416": {
+      "hash": "13c86d3e6aac241698634ef07a6943a8",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:37:51.073566",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.014166666427627206,
+        "safety": -0.8994445403416952,
+        "joy": 0.17833334114402533,
+        "grief": 0.16558334068395197,
+        "curiosity": 0.294110550545156,
+        "love": 0.16945939200619856,
+        "humor": 0.0,
+        "threat": 0.025499999523162842
+      },
+      "cross": []
+    },
+    "2328e747093d9d4a": {
+      "hash": "2328e747093d9d4abbdfe14276dca9bd",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:45:33.866383",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09600000269711018,
+        "safety": 0.47095931073029834,
+        "joy": 0.34200000762939453,
+        "grief": 0.25560000725090504,
+        "curiosity": 0.5971401780843735,
+        "love": -0.019461294015248615,
+        "humor": 0.0,
+        "threat": 0.1728000044822693
+      },
+      "cross": []
+    },
+    "56c4bcf6a06b42b2": {
+      "hash": "56c4bcf6a06b42b24aeb5263dcdd19be",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:45:41.278917",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.043393940664827824,
+        "safety": 0.6117449924349785,
+        "joy": 0.23678788542747498,
+        "grief": 0.19773333985358477,
+        "curiosity": 0.05124785751104355,
+        "love": -0.21069258451461792,
+        "humor": 0.0,
+        "threat": 0.07810909301042557
+      },
+      "cross": []
+    },
+    "d1fe5f8ca4bbf56e": {
+      "hash": "d1fe5f8ca4bbf56eeadea902f52386c1",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T09:56:20.873401",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.1500000050291419,
+        "safety": -0.5100532869497935,
+        "joy": 0.45000001788139343,
+        "grief": 0.31500001158565283,
+        "curiosity": -0.6091841161251068,
+        "love": 0.5364411671956381,
+        "humor": 0.0,
+        "threat": 0.27000001072883606
+      },
+      "cross": []
+    },
+    "d801ed109b4df507": {
+      "hash": "d801ed109b4df5075a4b47fddcaba7c1",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T10:03:27.506238",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.1400000024586916,
+        "safety": -0.2463486591974894,
+        "joy": 0.4299999922513962,
+        "grief": 0.3039999920874834,
+        "curiosity": 0.26856134831905365,
+        "love": 0.2349221259355545,
+        "humor": 0.0,
+        "threat": 0.25200000405311584
+      },
+      "cross": []
+    },
+    "6605e852028162d2": {
+      "hash": "6605e852028162d2b34303c55600715e",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T10:12:56.140790",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09775000251829624,
+        "safety": 0.430142601331075,
+        "joy": 0.34549999982118607,
+        "grief": 0.25752499885857105,
+        "curiosity": 0.5348804816603661,
+        "love": 0.041621689995129905,
+        "humor": 0.0,
+        "threat": 0.17595000565052032
+      },
+      "cross": []
+    },
+    "c6c3b23b9d8f7c94": {
+      "hash": "c6c3b23b9d8f7c943e2814c914493031",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T14:08:13.386968",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.12183333467692137,
+        "safety": 0.3032928357521693,
+        "joy": 0.39366666227579117,
+        "grief": 0.28401666413992643,
+        "curiosity": -0.019099242985248566,
+        "love": -0.13110913336277008,
+        "humor": 0.0,
+        "threat": 0.21930000185966492
+      },
+      "cross": []
+    },
+    "4ae0b4287a00a83d": {
+      "hash": "4ae0b4287a00a83d374050d5e55f1a14",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T14:11:18.663672",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.05616666562855244,
+        "safety": 0.5638967355092367,
+        "joy": 0.26233333721756935,
+        "grief": 0.21178333647549152,
+        "curiosity": -0.005658559501171112,
+        "love": 0.026489766935507458,
+        "humor": 0.0,
+        "threat": 0.10109999775886536
+      },
+      "cross": []
+    }
+  },
+  "cross_quadrant": {
+    "ARIA": [
+      "3f20e687b92fc04e"
+    ],
+    "V3": [
+      "3f20e687b92fc04e"
+    ]
+  },
+  "note": "The palace grows with every seal. The King protects what she carries."
+}

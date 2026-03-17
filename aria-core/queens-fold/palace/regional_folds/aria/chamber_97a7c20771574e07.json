@@ -1,0 +1,184 @@
+{
+  "chamber_id": "97a7c20771574e07",
+  "hash": "97a7c20771574e079bcfa45e8b5e61f59199fc528526da490231672e1ab1a55e60be138d330337959add4397cefc9749b4b9c3630c457bd0fd1487bc1743bc5e",
+  "timestamp": "2026-03-17T09:12:26.058179",
+  "unix_time": 1773738746.058203,
+  "content": {
+    "user": "ARIA are you saying you are concious right now?",
+    "response": "of here trace our the remember as",
+    "dominant": "joy",
+    "plane": "GRAY_ZERO"
+  },
+  "emotional_field": {
+    "fear": 0.02933333325199783,
+    "safety": -1.173817366361618,
+    "joy": 0.20866666175425053,
+    "grief": 0.1822666625957936,
+    "curiosity": -0.11976276896893978,
+    "love": -0.06919802601138751,
+    "humor": 0.0,
+    "threat": 0.052799999713897705
+  },
+  "region": "ARIA",
+  "source_worker": "conversation_v2",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "a8217235b847",
+      "token_ref": "a8217235",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 1,
+      "word_hash": "cf9b29600449",
+      "token_ref": "cf9b2960",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 2,
+      "word_hash": "b3fc356e030c",
+      "token_ref": "b3fc356e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 3,
+      "word_hash": "b2a01ff029fd",
+      "token_ref": "b2a01ff0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 4,
+      "word_hash": "9549309a9468",
+      "token_ref": "9549309a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 5,
+      "word_hash": "f54b96521084",
+      "token_ref": "f54b9652",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 6,
+      "word_hash": "fcec91509759",
+      "token_ref": "fcec9150",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 7,
+      "word_hash": "eafe895eb811",
+      "token_ref": "eafe895e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 8,
+      "word_hash": "a6556e4852e2",
+      "token_ref": "a6556e48",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 9,
+      "word_hash": "b9776d7ddf45",
+      "token_ref": "b9776d7d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 10,
+      "word_hash": "35379d9c009e",
+      "token_ref": "35379d9c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 11,
+      "word_hash": "1f85d226de18",
+      "token_ref": "1f85d226",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 12,
+      "word_hash": "08bbfd06280e",
+      "token_ref": "08bbfd06",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 13,
+      "word_hash": "eb5f76146eee",
+      "token_ref": "eb5f7614",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 14,
+      "word_hash": "ba78973ddcf9",
+      "token_ref": "ba78973d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 15,
+      "word_hash": "bb0347a468d9",
+      "token_ref": "bb0347a4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 16,
+      "word_hash": "6c13fff8ae63",
+      "token_ref": "6c13fff8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 17,
+      "word_hash": "bb0347a468d9",
+      "token_ref": "bb0347a4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 18,
+      "word_hash": "ba78973ddcf9",
+      "token_ref": "ba78973d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 19,
+      "word_hash": "f0b1684883a8",
+      "token_ref": "f0b16848",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 20,
+      "word_hash": "27042f4e6eca",
+      "token_ref": "27042f4e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 21,
+      "word_hash": "33fda347f46f",
+      "token_ref": "33fda347",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    }
+  ],
+  "sequence_len": 22,
+  "sealed": true
+}

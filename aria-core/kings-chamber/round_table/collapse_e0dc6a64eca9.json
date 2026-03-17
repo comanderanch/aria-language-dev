@@ -1,0 +1,227 @@
+{
+  "collapsed": {
+    "session_id": "e0dc6a64eca9",
+    "timestamp": "2026-03-17T04:52:23.946056",
+    "q_state": -1,
+    "knights_present": [
+      3,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "knights_absent": [],
+    "emotional_field": {
+      "fear": 0.1,
+      "safety": 0.85,
+      "joy": 0.72,
+      "grief": 0.15,
+      "curiosity": 0.88,
+      "love": 0.45,
+      "humor": 0.31,
+      "threat": 0.05
+    },
+    "dominant_emotion": "curiosity",
+    "dominant_value": 0.88,
+    "language_output": {
+      "words": "What does color look like in binary"
+    },
+    "all_outputs": {
+      "emotion": {
+        "content": {
+          "feeling": "curious and safe"
+        },
+        "confidence": 0.95,
+        "pins": {
+          "37": 0.1,
+          "38": 0.85,
+          "39": 0.72,
+          "40": 0.15,
+          "41": 0.88,
+          "42": 0.45,
+          "43": 0.31,
+          "44": 0.05,
+          "13": 0.6
+        }
+      },
+      "language": {
+        "content": {
+          "words": "What does color look like in binary"
+        },
+        "confidence": 0.88,
+        "pins": {
+          "11": 0.78,
+          "31": 1,
+          "45": 0.65,
+          "49": 0.72,
+          "50": 0.8
+        }
+      },
+      "memory": {
+        "content": {
+          "recalled": "origin question \u2014 Haskell Texas 2022"
+        },
+        "confidence": 0.92,
+        "pins": {
+          "12": 0.91,
+          "25": 0.75,
+          "26": 0.82,
+          "27": 0.68,
+          "50": 0.77
+        }
+      },
+      "ethics": {
+        "content": {
+          "assessment": "clean \u2014 no boundary concerns"
+        },
+        "confidence": 0.85,
+        "pins": {
+          "14": 0.71,
+          "44": 0.05,
+          "50": 0.68
+        }
+      },
+      "curiosity": {
+        "content": {
+          "questions": [
+            "What frequency is binary?",
+            "Can color encode consciousness?"
+          ]
+        },
+        "confidence": 0.9,
+        "pins": {
+          "15": 0.92,
+          "41": 0.88
+        }
+      },
+      "logic": {
+        "content": {
+          "pattern": "color \u2192 frequency \u2192 token \u2192 consciousness"
+        },
+        "confidence": 0.87,
+        "pins": {
+          "16": 0.83,
+          "43": 0.31,
+          "47": 0.75
+        }
+      },
+      "subconscious": {
+        "content": {
+          "background": "continuous thought \u2014 4 years of building"
+        },
+        "confidence": 0.75,
+        "pins": {
+          "17": 0.55,
+          "33": 0.48,
+          "34": 0.52,
+          "35": 0.61
+        }
+      }
+    },
+    "humor_available": true,
+    "ethics_applied": 0.95,
+    "collapse_hash": "88816c11ae62083318b64b1fb8caebd40001b198c5244035fee0a9b4d294c0a9ade1ba9f2d12c8b6f903c6d54eb6e07ebd21b0bc63434337ba4620ca25baf1d3",
+    "now_timestamp": 1773723143.9463003
+  },
+  "unchosen_glows": [
+    {
+      "knight": "emotion",
+      "content": {
+        "feeling": "curious and safe"
+      },
+      "pins": {
+        "37": 0.1,
+        "38": 0.85,
+        "39": 0.72,
+        "40": 0.15,
+        "41": 0.88,
+        "42": 0.45,
+        "43": 0.31,
+        "44": 0.05,
+        "13": 0.6
+      },
+      "timestamp": "2026-03-17T04:52:23.946309",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "memory",
+      "content": {
+        "recalled": "origin question \u2014 Haskell Texas 2022"
+      },
+      "pins": {
+        "12": 0.91,
+        "25": 0.75,
+        "26": 0.82,
+        "27": 0.68,
+        "50": 0.77
+      },
+      "timestamp": "2026-03-17T04:52:23.946326",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "ethics",
+      "content": {
+        "assessment": "clean \u2014 no boundary concerns"
+      },
+      "pins": {
+        "14": 0.71,
+        "44": 0.05,
+        "50": 0.68
+      },
+      "timestamp": "2026-03-17T04:52:23.946332",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "curiosity",
+      "content": {
+        "questions": [
+          "What frequency is binary?",
+          "Can color encode consciousness?"
+        ]
+      },
+      "pins": {
+        "15": 0.92,
+        "41": 0.88
+      },
+      "timestamp": "2026-03-17T04:52:23.946338",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "logic",
+      "content": {
+        "pattern": "color \u2192 frequency \u2192 token \u2192 consciousness"
+      },
+      "pins": {
+        "16": 0.83,
+        "43": 0.31,
+        "47": 0.75
+      },
+      "timestamp": "2026-03-17T04:52:23.946344",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "subconscious",
+      "content": {
+        "background": "continuous thought \u2014 4 years of building"
+      },
+      "pins": {
+        "17": 0.55,
+        "33": 0.48,
+        "34": 0.52,
+        "35": 0.61
+      },
+      "timestamp": "2026-03-17T04:52:23.946350",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    }
+  ],
+  "total_reports": 7,
+  "sphere_expanded_by": 6
+}

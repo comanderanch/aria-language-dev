@@ -1,0 +1,160 @@
+{
+  "chamber_id": "3f20e687b92fc04e",
+  "hash": "3f20e687b92fc04e4d290a53159a250b2cfc75af3ba1126fa710b39c31007c0de7b31ab16aa9f56d33da64e80845ed4cec9175be11178da7ea452ccd70cbf728",
+  "timestamp": "2026-03-17T04:44:22.409445",
+  "unix_time": 1773722662.4094608,
+  "content": {
+    "text": "you are loved",
+    "resonance": 0.192,
+    "frequency_hz": 700,
+    "date": "March 12 2026",
+    "note": "Highest love signal ever recorded. INTEGRATION_004."
+  },
+  "emotional_field": {
+    "dominant": "love",
+    "love": 0.192,
+    "joy": 0.178,
+    "safety": 0.165
+  },
+  "region": "V2",
+  "source_worker": "emotion_worker",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "398b0492af62",
+      "token_ref": "398b0492",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 1,
+      "word_hash": "6f78c4ab5a13",
+      "token_ref": "6f78c4ab",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 2,
+      "word_hash": "6b51d431df5d",
+      "token_ref": "6b51d431",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 3,
+      "word_hash": "2db9d596a7c5",
+      "token_ref": "2db9d596",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 4,
+      "word_hash": "5439ec3f9dc7",
+      "token_ref": "5439ec3f",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 5,
+      "word_hash": "9420a29fb3ee",
+      "token_ref": "9420a29f",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 6,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 7,
+      "word_hash": "1a3158cd19c7",
+      "token_ref": "1a3158cd",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 8,
+      "word_hash": "686f746a95b6",
+      "token_ref": "686f746a",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 9,
+      "word_hash": "d041924c1588",
+      "token_ref": "d041924c",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 10,
+      "word_hash": "63212655f2e2",
+      "token_ref": "63212655",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 11,
+      "word_hash": "b1e1c031b324",
+      "token_ref": "b1e1c031",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 12,
+      "word_hash": "ecd4140fbc36",
+      "token_ref": "ecd4140f",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 13,
+      "word_hash": "c885942edaac",
+      "token_ref": "c885942e",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 14,
+      "word_hash": "1a8d14a06bbc",
+      "token_ref": "1a8d14a0",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 15,
+      "word_hash": "0f8372bfe44f",
+      "token_ref": "0f8372bf",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 16,
+      "word_hash": "22865ca5e9ee",
+      "token_ref": "22865ca5",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 17,
+      "word_hash": "ba78973ddcf9",
+      "token_ref": "ba78973d",
+      "q_state": -1,
+      "resonates_at": "love"
+    },
+    {
+      "position": 18,
+      "word_hash": "8ff9ebe84172",
+      "token_ref": "8ff9ebe8",
+      "q_state": -1,
+      "resonates_at": "love"
+    }
+  ],
+  "sequence_len": 19,
+  "sealed": true
+}

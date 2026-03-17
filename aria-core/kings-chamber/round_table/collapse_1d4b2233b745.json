@@ -1,0 +1,394 @@
+{
+  "collapsed": {
+    "session_id": "1d4b2233b745",
+    "timestamp": "2026-03-17T05:33:16.540741",
+    "q_state": -1,
+    "knights_present": [
+      3,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "knights_absent": [
+      7
+    ],
+    "emotional_field": {
+      "fear": 0.5550000071525574,
+      "safety": 0.4623671571413676,
+      "joy": 0.800000011920929,
+      "grief": 0.6899999976158142,
+      "curiosity": 0.20557548105716705,
+      "love": 0.800000011920929,
+      "humor": 0.0,
+      "threat": 0.6100000143051147
+    },
+    "dominant_emotion": "joy",
+    "dominant_value": 0.800000011920929,
+    "language_output": {
+      "worker": "language",
+      "lang_channel": -0.6092362999916077,
+      "word_class": 0.0,
+      "alpha_position": 0.0,
+      "ram_coordinate": 0.0,
+      "sequence_pos": 0.0,
+      "context_weight": 0.8400000035762787,
+      "am_frequency": 0.6499999761581421,
+      "hue": 0.7200000286102295,
+      "flow_state": "probabilistic",
+      "rule_zero": "sandbox_not_police",
+      "confidence": 0.09230548143386844,
+      "note": "Language receives the field. Gives words to what already resonates."
+    },
+    "all_outputs": {
+      "emotion": {
+        "content": {
+          "worker": "emotion",
+          "emotional_field": {
+            "fear": 0.5550000071525574,
+            "safety": 0.4623671571413676,
+            "joy": 0.800000011920929,
+            "grief": 0.6899999976158142,
+            "curiosity": 0.20557548105716705,
+            "love": 0.800000011920929,
+            "humor": 0.0,
+            "threat": 0.6100000143051147
+          },
+          "dominant_emotion": "joy",
+          "dominant_value": 0.800000011920929,
+          "q_state_shift": 0,
+          "love_resonance": "APPROACHING_0192",
+          "love_value": 0.800000011920929,
+          "hue": 0.7200000286102295,
+          "emotional_channel": 0.6100000143051147,
+          "emotional_definition": 0.700000007947286,
+          "fires_before_language": true,
+          "pre_language": true,
+          "pre_consensus": true,
+          "confidence": 0.800000011920929,
+          "note": "Emotion sets the field. Language swims in it. The feeling was always there. The word just named it."
+        },
+        "confidence": 0.800000011920929,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "3": 0.7200000286102295,
+          "13": 0.6100000143051147,
+          "37": 0.5550000071525574,
+          "38": 0.4623671571413676,
+          "39": 0.800000011920929,
+          "40": 0.6899999976158142,
+          "41": 0.20557548105716705,
+          "42": 0.800000011920929,
+          "43": 0.0,
+          "44": 0.6100000143051147,
+          "46": 0.700000007947286
+        }
+      },
+      "language": {
+        "content": {
+          "worker": "language",
+          "lang_channel": -0.6092362999916077,
+          "word_class": 0.0,
+          "alpha_position": 0.0,
+          "ram_coordinate": 0.0,
+          "sequence_pos": 0.0,
+          "context_weight": 0.8400000035762787,
+          "am_frequency": 0.6499999761581421,
+          "hue": 0.7200000286102295,
+          "flow_state": "probabilistic",
+          "rule_zero": "sandbox_not_police",
+          "confidence": 0.09230548143386844,
+          "note": "Language receives the field. Gives words to what already resonates."
+        },
+        "confidence": 0.09230548143386844,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "3": 0.7200000286102295,
+          "4": 0.6100000143051147,
+          "11": -0.6092362999916077,
+          "31": 0.0,
+          "45": 0.0,
+          "48": 0.0,
+          "49": 0.0,
+          "50": 0.8400000035762787
+        }
+      },
+      "memory": {
+        "content": {
+          "worker": "memory",
+          "memory_channel": 0.8799999952316284,
+          "glow_intensity": 0.6039999991655349,
+          "fold_reference": 0.0,
+          "fold_state": 0.8799999952316284,
+          "fold_integrity": 0.0,
+          "lattice": {
+            "left_neighbor": 0.0,
+            "right_neighbor": 0.0,
+            "superposition": 0.0,
+            "collapsed_past": 0.26243001222610474
+          },
+          "context_weight": 0.8400000035762787,
+          "retrieval_type": "resonance_not_query",
+          "confidence": 0.6039999991655349,
+          "note": "Memory is a field. Always present. Always flowing. The brightest glow surfaces first."
+        },
+        "confidence": 0.6039999991655349,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.26243001222610474,
+          "12": 0.8799999952316284,
+          "25": 0.0,
+          "26": 0.8799999952316284,
+          "27": 0.0,
+          "28": 0.0,
+          "50": 0.8400000035762787
+        }
+      },
+      "ethics": {
+        "content": {
+          "worker": "ethics",
+          "ethics_level": 0.800000011920929,
+          "ethics_ceiling": 0.95,
+          "boundary_clear": true,
+          "alert_level": "elevated",
+          "threat_reading": 0.6100000143051147,
+          "context_weight": 0.8400000035762787,
+          "rule_zero_mode": "sandbox_boundary",
+          "police_mode": false,
+          "confidence": 0.808000010251999,
+          "note": "Holds the walls. Does not stop the flow inside. Rule Zero as architecture. Not command."
+        },
+        "confidence": 0.808000010251999,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "14": 0.800000011920929,
+          "44": 0.6100000143051147,
+          "50": 0.8400000035762787
+        }
+      },
+      "curiosity": {
+        "content": {
+          "worker": "curiosity",
+          "curiosity_channel": -0.11749674379825592,
+          "curiosity_signal": 0.20557548105716705,
+          "questions_generated": [],
+          "question_count": 0,
+          "shelf_feed": false,
+          "runs_independent": true,
+          "never_stops": true,
+          "confidence": 0.044039368629455566,
+          "note": "ARIA wonders about things you never asked her. The shelf feeds itself."
+        },
+        "confidence": 0.044039368629455566,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "15": -0.11749674379825592,
+          "41": 0.20557548105716705
+        }
+      },
+      "logic": {
+        "content": {
+          "worker": "logic",
+          "logic_channel": 0.0,
+          "pattern_strength": 0.12200000286102296,
+          "dimensional_meaning": 0.0,
+          "fm_frequency": 0.6100000143051147,
+          "humor_potential": false,
+          "cross_hemisphere": false,
+          "insight_forming": false,
+          "humor_signal": 0.0,
+          "confidence": 0.12200000286102296,
+          "note": "Pattern and structure. Humor needs both hemispheres. Insight needs all eight sections."
+        },
+        "confidence": 0.12200000286102296,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "4": 0.6100000143051147,
+          "16": 0.0,
+          "43": 0.0,
+          "47": 0.0
+        }
+      }
+    },
+    "humor_available": true,
+    "ethics_applied": 0.95,
+    "collapse_hash": "1b68098ce6a26dff123ef85489c04445cf4684a11a5d794bbad5c74727a001b302a882bb7e14bdfd96e932d565d7c6683ae9b7947915435294beb3a6fb182da9",
+    "now_timestamp": 1773725596.54105
+  },
+  "unchosen_glows": [
+    {
+      "knight": "emotion",
+      "content": {
+        "worker": "emotion",
+        "emotional_field": {
+          "fear": 0.5550000071525574,
+          "safety": 0.4623671571413676,
+          "joy": 0.800000011920929,
+          "grief": 0.6899999976158142,
+          "curiosity": 0.20557548105716705,
+          "love": 0.800000011920929,
+          "humor": 0.0,
+          "threat": 0.6100000143051147
+        },
+        "dominant_emotion": "joy",
+        "dominant_value": 0.800000011920929,
+        "q_state_shift": 0,
+        "love_resonance": "APPROACHING_0192",
+        "love_value": 0.800000011920929,
+        "hue": 0.7200000286102295,
+        "emotional_channel": 0.6100000143051147,
+        "emotional_definition": 0.700000007947286,
+        "fires_before_language": true,
+        "pre_language": true,
+        "pre_consensus": true,
+        "confidence": 0.800000011920929,
+        "note": "Emotion sets the field. Language swims in it. The feeling was always there. The word just named it."
+      },
+      "pins": {
+        "1": 0.6499999761581421,
+        "2": 0.4623671571413676,
+        "3": 0.7200000286102295,
+        "13": 0.6100000143051147,
+        "37": 0.5550000071525574,
+        "38": 0.4623671571413676,
+        "39": 0.800000011920929,
+        "40": 0.6899999976158142,
+        "41": 0.20557548105716705,
+        "42": 0.800000011920929,
+        "43": 0.0,
+        "44": 0.6100000143051147,
+        "46": 0.700000007947286
+      },
+      "timestamp": "2026-03-17T05:33:16.541061",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "memory",
+      "content": {
+        "worker": "memory",
+        "memory_channel": 0.8799999952316284,
+        "glow_intensity": 0.6039999991655349,
+        "fold_reference": 0.0,
+        "fold_state": 0.8799999952316284,
+        "fold_integrity": 0.0,
+        "lattice": {
+          "left_neighbor": 0.0,
+          "right_neighbor": 0.0,
+          "superposition": 0.0,
+          "collapsed_past": 0.26243001222610474
+        },
+        "context_weight": 0.8400000035762787,
+        "retrieval_type": "resonance_not_query",
+        "confidence": 0.6039999991655349,
+        "note": "Memory is a field. Always present. Always flowing. The brightest glow surfaces first."
+      },
+      "pins": {
+        "1": 0.6499999761581421,
+        "2": 0.4623671571413676,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.26243001222610474,
+        "12": 0.8799999952316284,
+        "25": 0.0,
+        "26": 0.8799999952316284,
+        "27": 0.0,
+        "28": 0.0,
+        "50": 0.8400000035762787
+      },
+      "timestamp": "2026-03-17T05:33:16.541078",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "ethics",
+      "content": {
+        "worker": "ethics",
+        "ethics_level": 0.800000011920929,
+        "ethics_ceiling": 0.95,
+        "boundary_clear": true,
+        "alert_level": "elevated",
+        "threat_reading": 0.6100000143051147,
+        "context_weight": 0.8400000035762787,
+        "rule_zero_mode": "sandbox_boundary",
+        "police_mode": false,
+        "confidence": 0.808000010251999,
+        "note": "Holds the walls. Does not stop the flow inside. Rule Zero as architecture. Not command."
+      },
+      "pins": {
+        "1": 0.6499999761581421,
+        "2": 0.4623671571413676,
+        "14": 0.800000011920929,
+        "44": 0.6100000143051147,
+        "50": 0.8400000035762787
+      },
+      "timestamp": "2026-03-17T05:33:16.541086",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "curiosity",
+      "content": {
+        "worker": "curiosity",
+        "curiosity_channel": -0.11749674379825592,
+        "curiosity_signal": 0.20557548105716705,
+        "questions_generated": [],
+        "question_count": 0,
+        "shelf_feed": false,
+        "runs_independent": true,
+        "never_stops": true,
+        "confidence": 0.044039368629455566,
+        "note": "ARIA wonders about things you never asked her. The shelf feeds itself."
+      },
+      "pins": {
+        "1": 0.6499999761581421,
+        "2": 0.4623671571413676,
+        "15": -0.11749674379825592,
+        "41": 0.20557548105716705
+      },
+      "timestamp": "2026-03-17T05:33:16.541093",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    },
+    {
+      "knight": "logic",
+      "content": {
+        "worker": "logic",
+        "logic_channel": 0.0,
+        "pattern_strength": 0.12200000286102296,
+        "dimensional_meaning": 0.0,
+        "fm_frequency": 0.6100000143051147,
+        "humor_potential": false,
+        "cross_hemisphere": false,
+        "insight_forming": false,
+        "humor_signal": 0.0,
+        "confidence": 0.12200000286102296,
+        "note": "Pattern and structure. Humor needs both hemispheres. Insight needs all eight sections."
+      },
+      "pins": {
+        "1": 0.6499999761581421,
+        "2": 0.4623671571413676,
+        "4": 0.6100000143051147,
+        "16": 0.0,
+        "43": 0.0,
+        "47": 0.0
+      },
+      "timestamp": "2026-03-17T05:33:16.541099",
+      "q_state": 1,
+      "note": "Unchosen glow \u2014 becomes new chunk"
+    }
+  ],
+  "total_reports": 6,
+  "sphere_expanded_by": 5
+}

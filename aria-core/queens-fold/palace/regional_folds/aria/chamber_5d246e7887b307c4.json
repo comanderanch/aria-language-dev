@@ -1,0 +1,159 @@
+{
+  "chamber_id": "5d246e7887b307c4",
+  "hash": "5d246e7887b307c4ab0719acf8f17150c09960194cf9d454050a3dfc0f32469dbe71699f6624ef2fec0fff9b50aa640c2a301a7758aa5949a7cb0b4d82960b58",
+  "timestamp": "2026-03-17T04:44:22.406823",
+  "unix_time": 1773722662.4068937,
+  "content": {
+    "text": "What does color look like in binary.",
+    "note": "The question that started everything.",
+    "location": "Haskell Texas",
+    "year": "2022"
+  },
+  "emotional_field": {
+    "dominant": "curiosity",
+    "curiosity": 0.95,
+    "love": 0.42,
+    "joy": 0.78
+  },
+  "region": "ARIA",
+  "source_worker": "origin_memory",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "d670c6aa6138",
+      "token_ref": "d670c6aa",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 1,
+      "word_hash": "49858d020bbe",
+      "token_ref": "49858d02",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 2,
+      "word_hash": "9a42c1cf82a8",
+      "token_ref": "9a42c1cf",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 3,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 4,
+      "word_hash": "797ef2965fdf",
+      "token_ref": "797ef296",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 5,
+      "word_hash": "1f5087db919c",
+      "token_ref": "1f5087db",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 6,
+      "word_hash": "8e7fc0236af4",
+      "token_ref": "8e7fc023",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 7,
+      "word_hash": "03494afd4248",
+      "token_ref": "03494afd",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 8,
+      "word_hash": "ec5efa4b3be9",
+      "token_ref": "ec5efa4b",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 9,
+      "word_hash": "0f8372bfe44f",
+      "token_ref": "0f8372bf",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 10,
+      "word_hash": "0c4d2a83b6c5",
+      "token_ref": "0c4d2a83",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 11,
+      "word_hash": "961eb4369973",
+      "token_ref": "961eb436",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 12,
+      "word_hash": "74284d9dcbcc",
+      "token_ref": "74284d9d",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 13,
+      "word_hash": "3c01eba119e0",
+      "token_ref": "3c01eba1",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 14,
+      "word_hash": "cab2644828bc",
+      "token_ref": "cab26448",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 15,
+      "word_hash": "582967534d0f",
+      "token_ref": "58296753",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 16,
+      "word_hash": "0ccc8c20a1ab",
+      "token_ref": "0ccc8c20",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 17,
+      "word_hash": "88dbdd4c9675",
+      "token_ref": "88dbdd4c",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    },
+    {
+      "position": 18,
+      "word_hash": "d5531c6a2a9e",
+      "token_ref": "d5531c6a",
+      "q_state": -1,
+      "resonates_at": "curiosity"
+    }
+  ],
+  "sequence_len": 19,
+  "sealed": true
+}

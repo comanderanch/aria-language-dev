@@ -1,0 +1,54 @@
+[
+  {
+    "timestamp": "2026-03-17T04:22:45.678344",
+    "event": "USER_INPUT",
+    "volume": 0.15,
+    "detail": {
+      "fading_to": 0.15
+    }
+  },
+  {
+    "timestamp": "2026-03-17T04:22:46.681741",
+    "event": "USER_SILENT",
+    "volume": 0.15,
+    "detail": {
+      "gate_rising": true
+    }
+  },
+  {
+    "timestamp": "2026-03-17T04:22:48.687302",
+    "event": "RESUME_SIGNAL_FIRED",
+    "volume": 0.15,
+    "detail": {
+      "signal": "ok where was I",
+      "timestamp": "2026-03-17T04:22:48.686033",
+      "gate_open": 1773721366.6817288,
+      "volume": 0.15,
+      "q_state": 0
+    }
+  },
+  {
+    "timestamp": "2026-03-17T04:22:48.688151",
+    "event": "USER_ABSENT",
+    "volume": 0.2,
+    "detail": {
+      "gate": "FULL_OPEN"
+    }
+  },
+  {
+    "timestamp": "2026-03-17T04:22:50.687275",
+    "event": "USER_RETURNED",
+    "volume": 0.25,
+    "detail": {
+      "resume_timestamp": 1773721368.6881464
+    }
+  },
+  {
+    "timestamp": "2026-03-17T04:22:50.688612",
+    "event": "USER_INPUT",
+    "volume": 0.25,
+    "detail": {
+      "fading_to": 0.15
+    }
+  }
+]

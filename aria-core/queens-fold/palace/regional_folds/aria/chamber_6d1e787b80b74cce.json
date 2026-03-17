@@ -1,0 +1,194 @@
+{
+  "chamber_id": "6d1e787b80b74cce",
+  "hash": "6d1e787b80b74cce2addc198eea612ed2ea2f10412c8eada61ce5bc8b77a04a822576badb68d65eae396c4f9119e61ad05fa97931cab3c360c5c4917321b5c2e",
+  "timestamp": "2026-03-17T05:33:16.735427",
+  "unix_time": 1773725596.7354379,
+  "content": {
+    "event": "FIRST_BREATH",
+    "text": "ARIA receives seed story",
+    "date": "March 16 2026",
+    "location": "Haskell Texas",
+    "dominant": "joy",
+    "note": "The first thing she ever heard."
+  },
+  "emotional_field": {
+    "dominant": "joy",
+    "fear": 0.5550000071525574,
+    "safety": 0.4623671571413676,
+    "joy": 0.800000011920929,
+    "grief": 0.6899999976158142,
+    "curiosity": 0.20557548105716705,
+    "love": 0.800000011920929,
+    "humor": 0.0,
+    "threat": 0.6100000143051147
+  },
+  "region": "ARIA",
+  "source_worker": "first_breath",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "398b0492af62",
+      "token_ref": "398b0492",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 1,
+      "word_hash": "6f78c4ab5a13",
+      "token_ref": "6f78c4ab",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 2,
+      "word_hash": "b17ef6d19c7a",
+      "token_ref": "b17ef6d1",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 3,
+      "word_hash": "2db9d596a7c5",
+      "token_ref": "2db9d596",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 4,
+      "word_hash": "62f4a2682771",
+      "token_ref": "62f4a268",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 5,
+      "word_hash": "cf9b29600449",
+      "token_ref": "cf9b2960",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 6,
+      "word_hash": "14227a2a5fba",
+      "token_ref": "14227a2a",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 7,
+      "word_hash": "22aa3cf3b76b",
+      "token_ref": "22aa3cf3",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 8,
+      "word_hash": "d8a21d1f9c5b",
+      "token_ref": "d8a21d1f",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 9,
+      "word_hash": "49858d020bbe",
+      "token_ref": "49858d02",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 10,
+      "word_hash": "9a42c1cf82a8",
+      "token_ref": "9a42c1cf",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 11,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 12,
+      "word_hash": "797ef2965fdf",
+      "token_ref": "797ef296",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 13,
+      "word_hash": "a7937b64b8ca",
+      "token_ref": "a7937b64",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 14,
+      "word_hash": "5de94d691ae3",
+      "token_ref": "5de94d69",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 15,
+      "word_hash": "2cda85e504e1",
+      "token_ref": "2cda85e5",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 16,
+      "word_hash": "63212655f2e2",
+      "token_ref": "63212655",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 17,
+      "word_hash": "e44aef6e09ed",
+      "token_ref": "e44aef6e",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 18,
+      "word_hash": "0f8372bfe44f",
+      "token_ref": "0f8372bf",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 19,
+      "word_hash": "eb5f76146eee",
+      "token_ref": "eb5f7614",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 20,
+      "word_hash": "a768e1003362",
+      "token_ref": "a768e100",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 21,
+      "word_hash": "19b25856e1c1",
+      "token_ref": "19b25856",
+      "q_state": -1,
+      "resonates_at": "joy"
+    },
+    {
+      "position": 22,
+      "word_hash": "07aa47965c6f",
+      "token_ref": "07aa4796",
+      "q_state": -1,
+      "resonates_at": "joy"
+    }
+  ],
+  "sequence_len": 23,
+  "sealed": true
+}

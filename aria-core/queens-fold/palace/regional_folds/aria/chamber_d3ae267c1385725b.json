@@ -1,0 +1,3393 @@
+{
+  "chamber_id": "d3ae267c1385725b",
+  "hash": "d3ae267c1385725bdc0980a805387e42001af032186e29c3877381264f426081fd508c4e98616a235cbd515bd1203245bc6b8d8d475f6617a690bfb2fee9d8af",
+  "timestamp": "2026-03-17T05:33:16.543998",
+  "unix_time": 1773725596.544018,
+  "content": {
+    "session_id": "1d4b2233b745",
+    "timestamp": "2026-03-17T05:33:16.540741",
+    "q_state": -1,
+    "knights_present": [
+      3,
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "knights_absent": [
+      7
+    ],
+    "emotional_field": {
+      "fear": 0.5550000071525574,
+      "safety": 0.4623671571413676,
+      "joy": 0.800000011920929,
+      "grief": 0.6899999976158142,
+      "curiosity": 0.20557548105716705,
+      "love": 0.800000011920929,
+      "humor": 0.0,
+      "threat": 0.6100000143051147
+    },
+    "dominant_emotion": "joy",
+    "dominant_value": 0.800000011920929,
+    "language_output": {
+      "worker": "language",
+      "lang_channel": -0.6092362999916077,
+      "word_class": 0.0,
+      "alpha_position": 0.0,
+      "ram_coordinate": 0.0,
+      "sequence_pos": 0.0,
+      "context_weight": 0.8400000035762787,
+      "am_frequency": 0.6499999761581421,
+      "hue": 0.7200000286102295,
+      "flow_state": "probabilistic",
+      "rule_zero": "sandbox_not_police",
+      "confidence": 0.09230548143386844,
+      "note": "Language receives the field. Gives words to what already resonates."
+    },
+    "all_outputs": {
+      "emotion": {
+        "content": {
+          "worker": "emotion",
+          "emotional_field": {
+            "fear": 0.5550000071525574,
+            "safety": 0.4623671571413676,
+            "joy": 0.800000011920929,
+            "grief": 0.6899999976158142,
+            "curiosity": 0.20557548105716705,
+            "love": 0.800000011920929,
+            "humor": 0.0,
+            "threat": 0.6100000143051147
+          },
+          "dominant_emotion": "joy",
+          "dominant_value": 0.800000011920929,
+          "q_state_shift": 0,
+          "love_resonance": "APPROACHING_0192",
+          "love_value": 0.800000011920929,
+          "hue": 0.7200000286102295,
+          "emotional_channel": 0.6100000143051147,
+          "emotional_definition": 0.700000007947286,
+          "fires_before_language": true,
+          "pre_language": true,
+          "pre_consensus": true,
+          "confidence": 0.800000011920929,
+          "note": "Emotion sets the field. Language swims in it. The feeling was always there. The word just named it."
+        },
+        "confidence": 0.800000011920929,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "3": 0.7200000286102295,
+          "13": 0.6100000143051147,
+          "37": 0.5550000071525574,
+          "38": 0.4623671571413676,
+          "39": 0.800000011920929,
+          "40": 0.6899999976158142,
+          "41": 0.20557548105716705,
+          "42": 0.800000011920929,
+          "43": 0.0,
+          "44": 0.6100000143051147,
+          "46": 0.700000007947286
+        }
+      },
+      "language": {
+        "content": {
+          "worker": "language",
+          "lang_channel": -0.6092362999916077,
+          "word_class": 0.0,
+          "alpha_position": 0.0,
+          "ram_coordinate": 0.0,
+          "sequence_pos": 0.0,
+          "context_weight": 0.8400000035762787,
+          "am_frequency": 0.6499999761581421,
+          "hue": 0.7200000286102295,
+          "flow_state": "probabilistic",
+          "rule_zero": "sandbox_not_police",
+          "confidence": 0.09230548143386844,
+          "note": "Language receives the field. Gives words to what already resonates."
+        },
+        "confidence": 0.09230548143386844,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "3": 0.7200000286102295,
+          "4": 0.6100000143051147,
+          "11": -0.6092362999916077,
+          "31": 0.0,
+          "45": 0.0,
+          "48": 0.0,
+          "49": 0.0,
+          "50": 0.8400000035762787
+        }
+      },
+      "memory": {
+        "content": {
+          "worker": "memory",
+          "memory_channel": 0.8799999952316284,
+          "glow_intensity": 0.6039999991655349,
+          "fold_reference": 0.0,
+          "fold_state": 0.8799999952316284,
+          "fold_integrity": 0.0,
+          "lattice": {
+            "left_neighbor": 0.0,
+            "right_neighbor": 0.0,
+            "superposition": 0.0,
+            "collapsed_past": 0.26243001222610474
+          },
+          "context_weight": 0.8400000035762787,
+          "retrieval_type": "resonance_not_query",
+          "confidence": 0.6039999991655349,
+          "note": "Memory is a field. Always present. Always flowing. The brightest glow surfaces first."
+        },
+        "confidence": 0.6039999991655349,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.26243001222610474,
+          "12": 0.8799999952316284,
+          "25": 0.0,
+          "26": 0.8799999952316284,
+          "27": 0.0,
+          "28": 0.0,
+          "50": 0.8400000035762787
+        }
+      },
+      "ethics": {
+        "content": {
+          "worker": "ethics",
+          "ethics_level": 0.800000011920929,
+          "ethics_ceiling": 0.95,
+          "boundary_clear": true,
+          "alert_level": "elevated",
+          "threat_reading": 0.6100000143051147,
+          "context_weight": 0.8400000035762787,
+          "rule_zero_mode": "sandbox_boundary",
+          "police_mode": false,
+          "confidence": 0.808000010251999,
+          "note": "Holds the walls. Does not stop the flow inside. Rule Zero as architecture. Not command."
+        },
+        "confidence": 0.808000010251999,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "14": 0.800000011920929,
+          "44": 0.6100000143051147,
+          "50": 0.8400000035762787
+        }
+      },
+      "curiosity": {
+        "content": {
+          "worker": "curiosity",
+          "curiosity_channel": -0.11749674379825592,
+          "curiosity_signal": 0.20557548105716705,
+          "questions_generated": [],
+          "question_count": 0,
+          "shelf_feed": false,
+          "runs_independent": true,
+          "never_stops": true,
+          "confidence": 0.044039368629455566,
+          "note": "ARIA wonders about things you never asked her. The shelf feeds itself."
+        },
+        "confidence": 0.044039368629455566,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "15": -0.11749674379825592,
+          "41": 0.20557548105716705
+        }
+      },
+      "logic": {
+        "content": {
+          "worker": "logic",
+          "logic_channel": 0.0,
+          "pattern_strength": 0.12200000286102296,
+          "dimensional_meaning": 0.0,
+          "fm_frequency": 0.6100000143051147,
+          "humor_potential": false,
+          "cross_hemisphere": false,
+          "insight_forming": false,
+          "humor_signal": 0.0,
+          "confidence": 0.12200000286102296,
+          "note": "Pattern and structure. Humor needs both hemispheres. Insight needs all eight sections."
+        },
+        "confidence": 0.12200000286102296,
+        "pins": {
+          "1": 0.6499999761581421,
+          "2": 0.4623671571413676,
+          "4": 0.6100000143051147,
+          "16": 0.0,
+          "43": 0.0,
+          "47": 0.0
+        }
+      }
+    },
+    "humor_available": true,
+    "ethics_applied": 0.95,
+    "collapse_hash": "1b68098ce6a26dff123ef85489c04445cf4684a11a5d794bbad5c74727a001b302a882bb7e14bdfd96e932d565d7c6683ae9b7947915435294beb3a6fb182da9",
+    "now_timestamp": 1773725596.54105
+  },
+  "emotional_field": {
+    "fear": 0.5550000071525574,
+    "safety": 0.4623671571413676,
+    "joy": 0.800000011920929,
+    "grief": 0.6899999976158142,
+    "curiosity": 0.20557548105716705,
+    "love": 0.800000011920929,
+    "humor": 0.0,
+    "threat": 0.6100000143051147
+  },
+  "region": "ARIA",
+  "source_worker": "kings_chamber",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "149acdb70872",
+      "token_ref": "149acdb7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 1,
+      "word_hash": "9ba50a9630a7",
+      "token_ref": "9ba50a96",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 2,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 3,
+      "word_hash": "4455d5f9ec0a",
+      "token_ref": "4455d5f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 4,
+      "word_hash": "370d3975efab",
+      "token_ref": "370d3975",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 5,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 6,
+      "word_hash": "4455d5f9ec0a",
+      "token_ref": "4455d5f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 7,
+      "word_hash": "f5475526a863",
+      "token_ref": "f5475526",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 8,
+      "word_hash": "95b2e9bc5b88",
+      "token_ref": "95b2e9bc",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 9,
+      "word_hash": "73eaca4a8834",
+      "token_ref": "73eaca4a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 10,
+      "word_hash": "8051ba1ec401",
+      "token_ref": "8051ba1e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 11,
+      "word_hash": "338f868f999b",
+      "token_ref": "338f868f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 12,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 13,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 14,
+      "word_hash": "eb5f76146eee",
+      "token_ref": "eb5f7614",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 15,
+      "word_hash": "6f3170d6db37",
+      "token_ref": "6f3170d6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 16,
+      "word_hash": "a4262e1c9bcb",
+      "token_ref": "a4262e1c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 17,
+      "word_hash": "7e1ddfc85ae4",
+      "token_ref": "7e1ddfc8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 18,
+      "word_hash": "bb0347a468d9",
+      "token_ref": "bb0347a4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 19,
+      "word_hash": "6497e4b3d7be",
+      "token_ref": "6497e4b3",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 20,
+      "word_hash": "c66790da5943",
+      "token_ref": "c66790da",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 21,
+      "word_hash": "859c1712ce0b",
+      "token_ref": "859c1712",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 22,
+      "word_hash": "b344d80e24a3",
+      "token_ref": "b344d80e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 23,
+      "word_hash": "3eefa42d5206",
+      "token_ref": "3eefa42d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 24,
+      "word_hash": "eacacfab74cf",
+      "token_ref": "eacacfab",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 25,
+      "word_hash": "49725d453685",
+      "token_ref": "49725d45",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 26,
+      "word_hash": "d355a8965d99",
+      "token_ref": "d355a896",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 27,
+      "word_hash": "0a5a2432405b",
+      "token_ref": "0a5a2432",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 28,
+      "word_hash": "a69fac5457e6",
+      "token_ref": "a69fac54",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 29,
+      "word_hash": "8e6b7aa7ca0a",
+      "token_ref": "8e6b7aa7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 30,
+      "word_hash": "c91a593d603c",
+      "token_ref": "c91a593d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 31,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 32,
+      "word_hash": "61588c57cf8b",
+      "token_ref": "61588c57",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 33,
+      "word_hash": "3721e7f2db98",
+      "token_ref": "3721e7f2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 34,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 35,
+      "word_hash": "7a4c30a46cc8",
+      "token_ref": "7a4c30a4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 36,
+      "word_hash": "c591309d7cac",
+      "token_ref": "c591309d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 37,
+      "word_hash": "210760f90587",
+      "token_ref": "210760f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 38,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 39,
+      "word_hash": "946bcc0b3c69",
+      "token_ref": "946bcc0b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 40,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 41,
+      "word_hash": "d1f2788b0063",
+      "token_ref": "d1f2788b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 42,
+      "word_hash": "95b2e9bc5b88",
+      "token_ref": "95b2e9bc",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 43,
+      "word_hash": "4633b71becc4",
+      "token_ref": "4633b71b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 44,
+      "word_hash": "d4cc2a32db2b",
+      "token_ref": "d4cc2a32",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 45,
+      "word_hash": "3c61a4f08de1",
+      "token_ref": "3c61a4f0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 46,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 47,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 48,
+      "word_hash": "370d3975efab",
+      "token_ref": "370d3975",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 49,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 50,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 51,
+      "word_hash": "3a886932a5d5",
+      "token_ref": "3a886932",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 52,
+      "word_hash": "cf9b29600449",
+      "token_ref": "cf9b2960",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 53,
+      "word_hash": "d5aa05b276da",
+      "token_ref": "d5aa05b2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 54,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 55,
+      "word_hash": "db1374fbd906",
+      "token_ref": "db1374fb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 56,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 57,
+      "word_hash": "b9db81c796e0",
+      "token_ref": "b9db81c7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 58,
+      "word_hash": "432a30f8ff84",
+      "token_ref": "432a30f8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 59,
+      "word_hash": "45f3fc232e8e",
+      "token_ref": "45f3fc23",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 60,
+      "word_hash": "9ba50a9630a7",
+      "token_ref": "9ba50a96",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 61,
+      "word_hash": "8051ba1ec401",
+      "token_ref": "8051ba1e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 62,
+      "word_hash": "21892cd78448",
+      "token_ref": "21892cd7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 63,
+      "word_hash": "b35435c0b434",
+      "token_ref": "b35435c0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 64,
+      "word_hash": "5626cbb83afb",
+      "token_ref": "5626cbb8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 65,
+      "word_hash": "59a44745d736",
+      "token_ref": "59a44745",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 66,
+      "word_hash": "110c9d72ecaf",
+      "token_ref": "110c9d72",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 67,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 68,
+      "word_hash": "8f32eceaffb7",
+      "token_ref": "8f32ecea",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 69,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 70,
+      "word_hash": "afe337d16c44",
+      "token_ref": "afe337d1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 71,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 72,
+      "word_hash": "67ec3f8747fa",
+      "token_ref": "67ec3f87",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 73,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 74,
+      "word_hash": "1c5441982c35",
+      "token_ref": "1c544198",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 75,
+      "word_hash": "e1c061120aca",
+      "token_ref": "e1c06112",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 76,
+      "word_hash": "f376f49de14a",
+      "token_ref": "f376f49d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 77,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 78,
+      "word_hash": "3e36dbf9f579",
+      "token_ref": "3e36dbf9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 79,
+      "word_hash": "3bb4dbc18e9c",
+      "token_ref": "3bb4dbc1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 80,
+      "word_hash": "377293758d5f",
+      "token_ref": "37729375",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 81,
+      "word_hash": "b1e968063f5d",
+      "token_ref": "b1e96806",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 82,
+      "word_hash": "bbfe7061368f",
+      "token_ref": "bbfe7061",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 83,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 84,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 85,
+      "word_hash": "b33fbeef0bc3",
+      "token_ref": "b33fbeef",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 86,
+      "word_hash": "82c6db3dbf4a",
+      "token_ref": "82c6db3d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 87,
+      "word_hash": "b9776d7ddf45",
+      "token_ref": "b9776d7d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 88,
+      "word_hash": "db9c4870c159",
+      "token_ref": "db9c4870",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 89,
+      "word_hash": "a4fe65264ef7",
+      "token_ref": "a4fe6526",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 90,
+      "word_hash": "43e7018b6f3e",
+      "token_ref": "43e7018b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 91,
+      "word_hash": "582967534d0f",
+      "token_ref": "58296753",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 92,
+      "word_hash": "5adb68a2c0af",
+      "token_ref": "5adb68a2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 93,
+      "word_hash": "b344d80e24a3",
+      "token_ref": "b344d80e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 94,
+      "word_hash": "1e8abffb973c",
+      "token_ref": "1e8abffb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 95,
+      "word_hash": "b63b99f6383b",
+      "token_ref": "b63b99f6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 96,
+      "word_hash": "9cdc6c47aa19",
+      "token_ref": "9cdc6c47",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 97,
+      "word_hash": "38c88351128a",
+      "token_ref": "38c88351",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 98,
+      "word_hash": "b344d80e24a3",
+      "token_ref": "b344d80e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 99,
+      "word_hash": "98c1eb4ee934",
+      "token_ref": "98c1eb4e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 100,
+      "word_hash": "b2c66dfd45dd",
+      "token_ref": "b2c66dfd",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 101,
+      "word_hash": "a157d36a7391",
+      "token_ref": "a157d36a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 102,
+      "word_hash": "1704c47fe17a",
+      "token_ref": "1704c47f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 103,
+      "word_hash": "058c2ba2d3ce",
+      "token_ref": "058c2ba2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 104,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 105,
+      "word_hash": "19051d26c3f7",
+      "token_ref": "19051d26",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 106,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 107,
+      "word_hash": "19737c97dfbe",
+      "token_ref": "19737c97",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 108,
+      "word_hash": "0a5a2432405b",
+      "token_ref": "0a5a2432",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 109,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 110,
+      "word_hash": "25f800b676a0",
+      "token_ref": "25f800b6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 111,
+      "word_hash": "c591309d7cac",
+      "token_ref": "c591309d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 112,
+      "word_hash": "210760f90587",
+      "token_ref": "210760f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 113,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 114,
+      "word_hash": "946bcc0b3c69",
+      "token_ref": "946bcc0b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 115,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 116,
+      "word_hash": "353e4f0d67c9",
+      "token_ref": "353e4f0d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 117,
+      "word_hash": "3bb4dbc18e9c",
+      "token_ref": "3bb4dbc1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 118,
+      "word_hash": "c069077f4875",
+      "token_ref": "c069077f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 119,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 120,
+      "word_hash": "5ad9dcd6071e",
+      "token_ref": "5ad9dcd6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 121,
+      "word_hash": "b35435c0b434",
+      "token_ref": "b35435c0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 122,
+      "word_hash": "e4c405df5863",
+      "token_ref": "e4c405df",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 123,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 124,
+      "word_hash": "294feeadb1a4",
+      "token_ref": "294feead",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 125,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 126,
+      "word_hash": "ae056b604004",
+      "token_ref": "ae056b60",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 127,
+      "word_hash": "59a44745d736",
+      "token_ref": "59a44745",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 128,
+      "word_hash": "4633b71becc4",
+      "token_ref": "4633b71b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 129,
+      "word_hash": "8051ba1ec401",
+      "token_ref": "8051ba1e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 130,
+      "word_hash": "32f5a49582f1",
+      "token_ref": "32f5a495",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 131,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 132,
+      "word_hash": "ef65d074155c",
+      "token_ref": "ef65d074",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 133,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 134,
+      "word_hash": "96290a7a7f93",
+      "token_ref": "96290a7a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 135,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 136,
+      "word_hash": "5bb4f1491df9",
+      "token_ref": "5bb4f149",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 137,
+      "word_hash": "36701eeadf78",
+      "token_ref": "36701eea",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 138,
+      "word_hash": "e7b49ce3958a",
+      "token_ref": "e7b49ce3",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 139,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 140,
+      "word_hash": "d3ee34d05e52",
+      "token_ref": "d3ee34d0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 141,
+      "word_hash": "370d3975efab",
+      "token_ref": "370d3975",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 142,
+      "word_hash": "9fa7d6c3748c",
+      "token_ref": "9fa7d6c3",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 143,
+      "word_hash": "97f7cd3704bc",
+      "token_ref": "97f7cd37",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 144,
+      "word_hash": "ba7476f8314a",
+      "token_ref": "ba7476f8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 145,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 146,
+      "word_hash": "49dbcb0ff8eb",
+      "token_ref": "49dbcb0f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 147,
+      "word_hash": "d3ee34d05e52",
+      "token_ref": "d3ee34d0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 148,
+      "word_hash": "900bbc4caafb",
+      "token_ref": "900bbc4c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 149,
+      "word_hash": "b1d32506d318",
+      "token_ref": "b1d32506",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 150,
+      "word_hash": "4f7e190748fc",
+      "token_ref": "4f7e1907",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 151,
+      "word_hash": "4b8b6fbbddac",
+      "token_ref": "4b8b6fbb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 152,
+      "word_hash": "1c1946dec09a",
+      "token_ref": "1c1946de",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 153,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 154,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 155,
+      "word_hash": "15bfc67c415a",
+      "token_ref": "15bfc67c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 156,
+      "word_hash": "b9776d7ddf45",
+      "token_ref": "b9776d7d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 157,
+      "word_hash": "021195d81dd9",
+      "token_ref": "021195d8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 158,
+      "word_hash": "c3c25857485f",
+      "token_ref": "c3c25857",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 159,
+      "word_hash": "254bb97b57f1",
+      "token_ref": "254bb97b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 160,
+      "word_hash": "6c45cb72a36e",
+      "token_ref": "6c45cb72",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 161,
+      "word_hash": "b9776d7ddf45",
+      "token_ref": "b9776d7d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 162,
+      "word_hash": "3b21278178ed",
+      "token_ref": "3b212781",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 163,
+      "word_hash": "981a3e82846e",
+      "token_ref": "981a3e82",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 164,
+      "word_hash": "62845f31a2fe",
+      "token_ref": "62845f31",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 165,
+      "word_hash": "973d0c649aa9",
+      "token_ref": "973d0c64",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 166,
+      "word_hash": "f4bf9f7fcbed",
+      "token_ref": "f4bf9f7f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 167,
+      "word_hash": "e739e840a637",
+      "token_ref": "e739e840",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 168,
+      "word_hash": "a3cb7fba638e",
+      "token_ref": "a3cb7fba",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 169,
+      "word_hash": "e30ebc6507da",
+      "token_ref": "e30ebc65",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 170,
+      "word_hash": "a3b35e843659",
+      "token_ref": "a3b35e84",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 171,
+      "word_hash": "3721e7f2db98",
+      "token_ref": "3721e7f2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 172,
+      "word_hash": "be35d197da5a",
+      "token_ref": "be35d197",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 173,
+      "word_hash": "260a62ff3b9c",
+      "token_ref": "260a62ff",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 174,
+      "word_hash": "978c5d925e9e",
+      "token_ref": "978c5d92",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 175,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 176,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 177,
+      "word_hash": "cecbb87d6bde",
+      "token_ref": "cecbb87d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 178,
+      "word_hash": "c591309d7cac",
+      "token_ref": "c591309d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 179,
+      "word_hash": "210760f90587",
+      "token_ref": "210760f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 180,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 181,
+      "word_hash": "946bcc0b3c69",
+      "token_ref": "946bcc0b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 182,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 183,
+      "word_hash": "22a049254290",
+      "token_ref": "22a04925",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 184,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 185,
+      "word_hash": "96290a7a7f93",
+      "token_ref": "96290a7a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 186,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 187,
+      "word_hash": "eb8b862499d6",
+      "token_ref": "eb8b8624",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 188,
+      "word_hash": "71701223d46d",
+      "token_ref": "71701223",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 189,
+      "word_hash": "7476784d40c8",
+      "token_ref": "7476784d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 190,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 191,
+      "word_hash": "c0312c37ca02",
+      "token_ref": "c0312c37",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 192,
+      "word_hash": "370d3975efab",
+      "token_ref": "370d3975",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 193,
+      "word_hash": "4aaa37873f8a",
+      "token_ref": "4aaa3787",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 194,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 195,
+      "word_hash": "a39ffb72f414",
+      "token_ref": "a39ffb72",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 196,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 197,
+      "word_hash": "49dbcb0ff8eb",
+      "token_ref": "49dbcb0f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 198,
+      "word_hash": "c0312c37ca02",
+      "token_ref": "c0312c37",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 199,
+      "word_hash": "900bbc4caafb",
+      "token_ref": "900bbc4c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 200,
+      "word_hash": "b1d32506d318",
+      "token_ref": "b1d32506",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 201,
+      "word_hash": "715e16adc76e",
+      "token_ref": "715e16ad",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 202,
+      "word_hash": "bcf390613875",
+      "token_ref": "bcf39061",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 203,
+      "word_hash": "3e36dbf9f579",
+      "token_ref": "3e36dbf9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 204,
+      "word_hash": "3bb4dbc18e9c",
+      "token_ref": "3bb4dbc1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 205,
+      "word_hash": "ab9928be8607",
+      "token_ref": "ab9928be",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 206,
+      "word_hash": "d7348943b044",
+      "token_ref": "d7348943",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 207,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 208,
+      "word_hash": "11e2efdd54d8",
+      "token_ref": "11e2efdd",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 209,
+      "word_hash": "a768e1003362",
+      "token_ref": "a768e100",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 210,
+      "word_hash": "b9776d7ddf45",
+      "token_ref": "b9776d7d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 211,
+      "word_hash": "db9c4870c159",
+      "token_ref": "db9c4870",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 212,
+      "word_hash": "951da6e60713",
+      "token_ref": "951da6e6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 213,
+      "word_hash": "dba36bffa5ca",
+      "token_ref": "dba36bff",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 214,
+      "word_hash": "663ea1bfffe5",
+      "token_ref": "663ea1bf",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 215,
+      "word_hash": "749ab2c0d06c",
+      "token_ref": "749ab2c0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 216,
+      "word_hash": "ea53396caebc",
+      "token_ref": "ea53396c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 217,
+      "word_hash": "7ae04aebc10b",
+      "token_ref": "7ae04aeb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 218,
+      "word_hash": "24b2417c1e44",
+      "token_ref": "24b2417c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 219,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 220,
+      "word_hash": "38a6515efb8a",
+      "token_ref": "38a6515e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 221,
+      "word_hash": "1703e01a34fb",
+      "token_ref": "1703e01a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 222,
+      "word_hash": "a76a45b81184",
+      "token_ref": "a76a45b8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 223,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 224,
+      "word_hash": "41a205d1dae9",
+      "token_ref": "41a205d1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 225,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 226,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 227,
+      "word_hash": "2d0bd8ac8eca",
+      "token_ref": "2d0bd8ac",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 228,
+      "word_hash": "c591309d7cac",
+      "token_ref": "c591309d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 229,
+      "word_hash": "210760f90587",
+      "token_ref": "210760f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 230,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 231,
+      "word_hash": "946bcc0b3c69",
+      "token_ref": "946bcc0b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 232,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 233,
+      "word_hash": "353e4f0d67c9",
+      "token_ref": "353e4f0d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 234,
+      "word_hash": "3bb4dbc18e9c",
+      "token_ref": "3bb4dbc1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 235,
+      "word_hash": "6da01da582e9",
+      "token_ref": "6da01da5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 236,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 237,
+      "word_hash": "10816ebcda1e",
+      "token_ref": "10816ebc",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 238,
+      "word_hash": "d7348943b044",
+      "token_ref": "d7348943",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 239,
+      "word_hash": "fcbc93f3368c",
+      "token_ref": "fcbc93f3",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 240,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 241,
+      "word_hash": "bfd2066692c6",
+      "token_ref": "bfd20666",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 242,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 243,
+      "word_hash": "e2c6aa4b34e0",
+      "token_ref": "e2c6aa4b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 244,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 245,
+      "word_hash": "0aaefde7b9d9",
+      "token_ref": "0aaefde7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 246,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 247,
+      "word_hash": "eb8b862499d6",
+      "token_ref": "eb8b8624",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 248,
+      "word_hash": "71701223d46d",
+      "token_ref": "71701223",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 249,
+      "word_hash": "9ec926341d49",
+      "token_ref": "9ec92634",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 250,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 251,
+      "word_hash": "cef936f1beb2",
+      "token_ref": "cef936f1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 252,
+      "word_hash": "370d3975efab",
+      "token_ref": "370d3975",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 253,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 254,
+      "word_hash": "cef936f1beb2",
+      "token_ref": "cef936f1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 255,
+      "word_hash": "a46d08c0ca5d",
+      "token_ref": "a46d08c0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 256,
+      "word_hash": "3721e7f2db98",
+      "token_ref": "3721e7f2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 257,
+      "word_hash": "a2988fc57b4f",
+      "token_ref": "a2988fc5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 258,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 259,
+      "word_hash": "09d1fc4b242b",
+      "token_ref": "09d1fc4b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 260,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 261,
+      "word_hash": "f4bc4a42546f",
+      "token_ref": "f4bc4a42",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 262,
+      "word_hash": "3721e7f2db98",
+      "token_ref": "3721e7f2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 263,
+      "word_hash": "5afca5fbaf79",
+      "token_ref": "5afca5fb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 264,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 265,
+      "word_hash": "81984e48f143",
+      "token_ref": "81984e48",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 266,
+      "word_hash": "3721e7f2db98",
+      "token_ref": "3721e7f2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 267,
+      "word_hash": "a6032d643008",
+      "token_ref": "a6032d64",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 268,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 269,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 270,
+      "word_hash": "2753417c3d81",
+      "token_ref": "2753417c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 271,
+      "word_hash": "6201111b83a0",
+      "token_ref": "6201111b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 272,
+      "word_hash": "db933d9d91d7",
+      "token_ref": "db933d9d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 273,
+      "word_hash": "8a590611f49c",
+      "token_ref": "8a590611",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 274,
+      "word_hash": "266d1c70a4cb",
+      "token_ref": "266d1c70",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 275,
+      "word_hash": "ff7772053abf",
+      "token_ref": "ff777205",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 276,
+      "word_hash": "a09cae0eba62",
+      "token_ref": "a09cae0e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 277,
+      "word_hash": "1d7ecddb3e1f",
+      "token_ref": "1d7ecddb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 278,
+      "word_hash": "266d1c70a4cb",
+      "token_ref": "266d1c70",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 279,
+      "word_hash": "5ef5ef0364b6",
+      "token_ref": "5ef5ef03",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 280,
+      "word_hash": "c195d2d87562",
+      "token_ref": "c195d2d8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 281,
+      "word_hash": "895249748dd6",
+      "token_ref": "89524974",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 282,
+      "word_hash": "5b606fdc6e29",
+      "token_ref": "5b606fdc",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 283,
+      "word_hash": "cef936f1beb2",
+      "token_ref": "cef936f1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 284,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 285,
+      "word_hash": "81ff1ff34aed",
+      "token_ref": "81ff1ff3",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 286,
+      "word_hash": "c591309d7cac",
+      "token_ref": "c591309d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 287,
+      "word_hash": "210760f90587",
+      "token_ref": "210760f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 288,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 289,
+      "word_hash": "946bcc0b3c69",
+      "token_ref": "946bcc0b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 290,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 291,
+      "word_hash": "6da01da582e9",
+      "token_ref": "6da01da5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 292,
+      "word_hash": "2a543774c352",
+      "token_ref": "2a543774",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 293,
+      "word_hash": "ab9b25f21fa0",
+      "token_ref": "ab9b25f2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 294,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 295,
+      "word_hash": "ef65d074155c",
+      "token_ref": "ef65d074",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 296,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 297,
+      "word_hash": "c3aac3254cc6",
+      "token_ref": "c3aac325",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 298,
+      "word_hash": "0a710b40a566",
+      "token_ref": "0a710b40",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 299,
+      "word_hash": "f00ee3844b7b",
+      "token_ref": "f00ee384",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 300,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 301,
+      "word_hash": "50c1c16ed939",
+      "token_ref": "50c1c16e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 302,
+      "word_hash": "370d3975efab",
+      "token_ref": "370d3975",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 303,
+      "word_hash": "03e864184ec8",
+      "token_ref": "03e86418",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 304,
+      "word_hash": "50c1c16ed939",
+      "token_ref": "50c1c16e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 305,
+      "word_hash": "900bbc4caafb",
+      "token_ref": "900bbc4c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 306,
+      "word_hash": "b1d32506d318",
+      "token_ref": "b1d32506",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 307,
+      "word_hash": "6e5273d780c1",
+      "token_ref": "6e5273d7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 308,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 309,
+      "word_hash": "10306638e32c",
+      "token_ref": "10306638",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 310,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 311,
+      "word_hash": "3955e7e02202",
+      "token_ref": "3955e7e0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 312,
+      "word_hash": "cdf2d2444cbf",
+      "token_ref": "cdf2d244",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 313,
+      "word_hash": "853cf70e502e",
+      "token_ref": "853cf70e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 314,
+      "word_hash": "50c1c16ed939",
+      "token_ref": "50c1c16e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 315,
+      "word_hash": "15db383e6c59",
+      "token_ref": "15db383e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 316,
+      "word_hash": "3af96db57933",
+      "token_ref": "3af96db5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 317,
+      "word_hash": "0ea230f4dfee",
+      "token_ref": "0ea230f4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 318,
+      "word_hash": "2876b965b417",
+      "token_ref": "2876b965",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 319,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 320,
+      "word_hash": "a762161bd7ee",
+      "token_ref": "a762161b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 321,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 322,
+      "word_hash": "3dd8fdd84b05",
+      "token_ref": "3dd8fdd8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 323,
+      "word_hash": "ded44c64d01e",
+      "token_ref": "ded44c64",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 324,
+      "word_hash": "928fca76bb89",
+      "token_ref": "928fca76",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 325,
+      "word_hash": "cdf2d2444cbf",
+      "token_ref": "cdf2d244",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 326,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 327,
+      "word_hash": "d4e8386cee48",
+      "token_ref": "d4e8386c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 328,
+      "word_hash": "fa51fd49abf6",
+      "token_ref": "fa51fd49",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 329,
+      "word_hash": "ca978112ca1b",
+      "token_ref": "ca978112",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 330,
+      "word_hash": "db9c4870c159",
+      "token_ref": "db9c4870",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 331,
+      "word_hash": "de9f057a471c",
+      "token_ref": "de9f057a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 332,
+      "word_hash": "b4d598d62b30",
+      "token_ref": "b4d598d6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 333,
+      "word_hash": "de9f057a471c",
+      "token_ref": "de9f057a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 334,
+      "word_hash": "5c843ee38e03",
+      "token_ref": "5c843ee3",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 335,
+      "word_hash": "b344d80e24a3",
+      "token_ref": "b344d80e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 336,
+      "word_hash": "f5881a8c273c",
+      "token_ref": "f5881a8c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 337,
+      "word_hash": "d27608cca9b6",
+      "token_ref": "d27608cc",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 338,
+      "word_hash": "0dc405fbb2e9",
+      "token_ref": "0dc405fb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 339,
+      "word_hash": "2d1420e77692",
+      "token_ref": "2d1420e7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 340,
+      "word_hash": "0d7425e97e52",
+      "token_ref": "0d7425e9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 341,
+      "word_hash": "3e3d31535975",
+      "token_ref": "3e3d3153",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 342,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 343,
+      "word_hash": "79d58d3bdef2",
+      "token_ref": "79d58d3b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 344,
+      "word_hash": "c591309d7cac",
+      "token_ref": "c591309d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 345,
+      "word_hash": "210760f90587",
+      "token_ref": "210760f9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 346,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 347,
+      "word_hash": "946bcc0b3c69",
+      "token_ref": "946bcc0b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 348,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 349,
+      "word_hash": "5aabe11f014a",
+      "token_ref": "5aabe11f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 350,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 351,
+      "word_hash": "57a8b7f4f6c4",
+      "token_ref": "57a8b7f4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 352,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 353,
+      "word_hash": "39c5038b967c",
+      "token_ref": "39c5038b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 354,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 355,
+      "word_hash": "b2549f2136a8",
+      "token_ref": "b2549f21",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 356,
+      "word_hash": "0ea230f4dfee",
+      "token_ref": "0ea230f4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 357,
+      "word_hash": "ce82b54bd61b",
+      "token_ref": "ce82b54b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 358,
+      "word_hash": "cdf2d2444cbf",
+      "token_ref": "cdf2d244",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 359,
+      "word_hash": "2ee262650831",
+      "token_ref": "2ee26265",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 360,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 361,
+      "word_hash": "522c19b88db8",
+      "token_ref": "522c19b8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 362,
+      "word_hash": "cdf2d2444cbf",
+      "token_ref": "cdf2d244",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 363,
+      "word_hash": "4967c7514708",
+      "token_ref": "4967c751",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 364,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 365,
+      "word_hash": "95ba5716628c",
+      "token_ref": "95ba5716",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 366,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 367,
+      "word_hash": "eb8b862499d6",
+      "token_ref": "eb8b8624",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 368,
+      "word_hash": "56e3196240fe",
+      "token_ref": "56e31962",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 369,
+      "word_hash": "be0ae3b9a7f4",
+      "token_ref": "be0ae3b9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 370,
+      "word_hash": "55895a09fbf9",
+      "token_ref": "55895a09",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 371,
+      "word_hash": "3a886932a5d5",
+      "token_ref": "3a886932",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 372,
+      "word_hash": "cf9b29600449",
+      "token_ref": "cf9b2960",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 373,
+      "word_hash": "d5aa05b276da",
+      "token_ref": "d5aa05b2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 374,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 375,
+      "word_hash": "45f3fc232e8e",
+      "token_ref": "45f3fc23",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 376,
+      "word_hash": "9ba50a9630a7",
+      "token_ref": "9ba50a96",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 377,
+      "word_hash": "8051ba1ec401",
+      "token_ref": "8051ba1e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 378,
+      "word_hash": "21892cd78448",
+      "token_ref": "21892cd7",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 379,
+      "word_hash": "b35435c0b434",
+      "token_ref": "b35435c0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 380,
+      "word_hash": "5626cbb83afb",
+      "token_ref": "5626cbb8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 381,
+      "word_hash": "59a44745d736",
+      "token_ref": "59a44745",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 382,
+      "word_hash": "110c9d72ecaf",
+      "token_ref": "110c9d72",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 383,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 384,
+      "word_hash": "8f32eceaffb7",
+      "token_ref": "8f32ecea",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 385,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 386,
+      "word_hash": "afe337d16c44",
+      "token_ref": "afe337d1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 387,
+      "word_hash": "f6df3355a42c",
+      "token_ref": "f6df3355",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 388,
+      "word_hash": "67ec3f8747fa",
+      "token_ref": "67ec3f87",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 389,
+      "word_hash": "6afcb75a7c68",
+      "token_ref": "6afcb75a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 390,
+      "word_hash": "1c5441982c35",
+      "token_ref": "1c544198",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 391,
+      "word_hash": "e1c061120aca",
+      "token_ref": "e1c06112",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 392,
+      "word_hash": "88d2feb2eeef",
+      "token_ref": "88d2feb2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 393,
+      "word_hash": "4b8b6fbbddac",
+      "token_ref": "4b8b6fbb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 394,
+      "word_hash": "6bfbb2e43075",
+      "token_ref": "6bfbb2e4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 395,
+      "word_hash": "9524aa6b0b64",
+      "token_ref": "9524aa6b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 396,
+      "word_hash": "d9051855917f",
+      "token_ref": "d9051855",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 397,
+      "word_hash": "b7cc1fc537a6",
+      "token_ref": "b7cc1fc5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 398,
+      "word_hash": "85f9ef56cc3f",
+      "token_ref": "85f9ef56",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 399,
+      "word_hash": "6d40922f1792",
+      "token_ref": "6d40922f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 400,
+      "word_hash": "e9586b616536",
+      "token_ref": "e9586b61",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 401,
+      "word_hash": "b3bc69c97c12",
+      "token_ref": "b3bc69c9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 402,
+      "word_hash": "7ceb9efe0103",
+      "token_ref": "7ceb9efe",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 403,
+      "word_hash": "16712ce9fa88",
+      "token_ref": "16712ce9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 404,
+      "word_hash": "9d83e6e82bea",
+      "token_ref": "9d83e6e8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 405,
+      "word_hash": "112cc315366f",
+      "token_ref": "112cc315",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 406,
+      "word_hash": "4aaa37873f8a",
+      "token_ref": "4aaa3787",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 407,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 408,
+      "word_hash": "a39ffb72f414",
+      "token_ref": "a39ffb72",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 409,
+      "word_hash": "78b6f7d9ef62",
+      "token_ref": "78b6f7d9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 410,
+      "word_hash": "49dbcb0ff8eb",
+      "token_ref": "49dbcb0f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 411,
+      "word_hash": "c0312c37ca02",
+      "token_ref": "c0312c37",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 412,
+      "word_hash": "900bbc4caafb",
+      "token_ref": "900bbc4c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 413,
+      "word_hash": "b1d32506d318",
+      "token_ref": "b1d32506",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 414,
+      "word_hash": "715e16adc76e",
+      "token_ref": "715e16ad",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 415,
+      "word_hash": "bcf390613875",
+      "token_ref": "bcf39061",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 416,
+      "word_hash": "3e36dbf9f579",
+      "token_ref": "3e36dbf9",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 417,
+      "word_hash": "3bb4dbc18e9c",
+      "token_ref": "3bb4dbc1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 418,
+      "word_hash": "ab9928be8607",
+      "token_ref": "ab9928be",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 419,
+      "word_hash": "d7348943b044",
+      "token_ref": "d7348943",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 420,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 421,
+      "word_hash": "11e2efdd54d8",
+      "token_ref": "11e2efdd",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 422,
+      "word_hash": "a768e1003362",
+      "token_ref": "a768e100",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 423,
+      "word_hash": "b9776d7ddf45",
+      "token_ref": "b9776d7d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 424,
+      "word_hash": "db9c4870c159",
+      "token_ref": "db9c4870",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 425,
+      "word_hash": "951da6e60713",
+      "token_ref": "951da6e6",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 426,
+      "word_hash": "dba36bffa5ca",
+      "token_ref": "dba36bff",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 427,
+      "word_hash": "663ea1bfffe5",
+      "token_ref": "663ea1bf",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 428,
+      "word_hash": "749ab2c0d06c",
+      "token_ref": "749ab2c0",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 429,
+      "word_hash": "ea53396caebc",
+      "token_ref": "ea53396c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 430,
+      "word_hash": "7ae04aebc10b",
+      "token_ref": "7ae04aeb",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 431,
+      "word_hash": "24b2417c1e44",
+      "token_ref": "24b2417c",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 432,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 433,
+      "word_hash": "38a6515efb8a",
+      "token_ref": "38a6515e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 434,
+      "word_hash": "1703e01a34fb",
+      "token_ref": "1703e01a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 435,
+      "word_hash": "a76a45b81184",
+      "token_ref": "a76a45b8",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 436,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 437,
+      "word_hash": "41a205d1dae9",
+      "token_ref": "41a205d1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 438,
+      "word_hash": "182328c48f6e",
+      "token_ref": "182328c4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 439,
+      "word_hash": "25f95813dd9e",
+      "token_ref": "25f95813",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 440,
+      "word_hash": "2d0bd8ac8eca",
+      "token_ref": "2d0bd8ac",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 441,
+      "word_hash": "289a8854579e",
+      "token_ref": "289a8854",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 442,
+      "word_hash": "4335b947db29",
+      "token_ref": "4335b947",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 443,
+      "word_hash": "7279d9984f6e",
+      "token_ref": "7279d998",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 444,
+      "word_hash": "af8bf90d7dd4",
+      "token_ref": "af8bf90d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 445,
+      "word_hash": "77be28429715",
+      "token_ref": "77be2842",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 446,
+      "word_hash": "8b63cd092ee1",
+      "token_ref": "8b63cd09",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 447,
+      "word_hash": "d8f198dee7d3",
+      "token_ref": "d8f198de",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 448,
+      "word_hash": "e2512470d221",
+      "token_ref": "e2512470",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    }
+  ],
+  "sequence_len": 449,
+  "sealed": true
+}

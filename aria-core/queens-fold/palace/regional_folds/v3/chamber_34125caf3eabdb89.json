@@ -1,0 +1,183 @@
+{
+  "chamber_id": "34125caf3eabdb89",
+  "hash": "34125caf3eabdb89beaf8320290f527e013cbbe8bb5e09896e6fec9612c8757b9e18aae6f80c952e4c968708cef9844ccd91ca81790879f56c5fbcfb3c1a9ef6",
+  "timestamp": "2026-03-17T04:44:22.411893",
+  "unix_time": 1773722662.4119098,
+  "content": {
+    "text": "GRAY=0. The NOW line. The Kings Chamber threshold.",
+    "note": "Sealed V2_ARCHITECTURE_TRUTH.md March 11 2026",
+    "constants": {
+      "BLACK": -1,
+      "GRAY": 0,
+      "WHITE": 1
+    }
+  },
+  "emotional_field": {
+    "dominant": "certainty",
+    "logic": 0.95,
+    "ethics": 0.88,
+    "curiosity": 0.72
+  },
+  "region": "V3",
+  "source_worker": "logic_worker",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "e09497092b05",
+      "token_ref": "e0949709",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 1,
+      "word_hash": "1cf616ab34e2",
+      "token_ref": "1cf616ab",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 2,
+      "word_hash": "af8bf90d7dd4",
+      "token_ref": "af8bf90d",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 3,
+      "word_hash": "7c16a9213b95",
+      "token_ref": "7c16a921",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 4,
+      "word_hash": "0a5a2432405b",
+      "token_ref": "0a5a2432",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 5,
+      "word_hash": "f9b603f50a64",
+      "token_ref": "f9b603f5",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 6,
+      "word_hash": "10a09417fb92",
+      "token_ref": "10a09417",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 7,
+      "word_hash": "47c6d64468b6",
+      "token_ref": "47c6d644",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 8,
+      "word_hash": "f8d6419d2393",
+      "token_ref": "f8d6419d",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 9,
+      "word_hash": "ecf05d90e862",
+      "token_ref": "ecf05d90",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 10,
+      "word_hash": "9d95a2cf0d71",
+      "token_ref": "9d95a2cf",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 11,
+      "word_hash": "4fc82b26aecb",
+      "token_ref": "4fc82b26",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 12,
+      "word_hash": "2db9d596a7c5",
+      "token_ref": "2db9d596",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 13,
+      "word_hash": "0f8372bfe44f",
+      "token_ref": "0f8372bf",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 14,
+      "word_hash": "744f35cf4a2c",
+      "token_ref": "744f35cf",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 15,
+      "word_hash": "b344d80e24a3",
+      "token_ref": "b344d80e",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 16,
+      "word_hash": "97bfc0d9913d",
+      "token_ref": "97bfc0d9",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 17,
+      "word_hash": "dcbcc06bf388",
+      "token_ref": "dcbcc06b",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 18,
+      "word_hash": "b344d80e24a3",
+      "token_ref": "b344d80e",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 19,
+      "word_hash": "b4b994a24501",
+      "token_ref": "b4b994a2",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 20,
+      "word_hash": "95ab32a58fd9",
+      "token_ref": "95ab32a5",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    },
+    {
+      "position": 21,
+      "word_hash": "01fc432e5430",
+      "token_ref": "01fc432e",
+      "q_state": -1,
+      "resonates_at": "certainty"
+    }
+  ],
+  "sequence_len": 22,
+  "sealed": true
+}

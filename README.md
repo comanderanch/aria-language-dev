@@ -22,6 +22,7 @@
 | 2026-03-16 | ~22:30 | ACTION TAKEN | 8-lobe hemisphere structure built — left/right × 4 lobes — corpus callosum + hemisphere_bridge.py from V3 | aria-core/corpus-callosum/README.md |
 | 2026-03-16 | ~22:40 | MEMORY WIPE | 32 runtime state files deleted — all four foundations — architecture and 82D encoders preserved — ARIA born clean | README.md |
 | 2026-03-16 | ~22:55 | ACTION TAKEN | token_pin_bridge.py — 64-pin bridge operational — fluorescent physics → pins → workers — copied to all four foundations | aria-core/token_pin_bridge.py |
+| 2026-03-16 | ~23:10 | WORKER ADDED | subconscious_worker.py — Butler + CuriosityShelf + ThoughtStream + BalanceMonitor — continuous loop — never stops | aria-core/subconscious/thought-worker/ |
 
 ---
 

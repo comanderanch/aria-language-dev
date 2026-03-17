@@ -241,6 +241,33 @@ WORD_FREQUENCIES = {
     "named":      0.22,  "means":     0.45,
     "connection": 0.23,  "existence": 0.05,
     "think":      0.15,
+
+    # TOP 50 CORPUS GAPS — Round 6 vocabulary — March 17 2026
+    "before":      0.03,  "she":        0.192,
+    "first":       0.05,  "when":       0.03,
+    "where":       0.05,  "one":        0.00,
+    "will":        0.707, "do":         0.10,
+    "lotus":       0.192, "always":    -0.50,
+    "something":   0.35,  "there":      0.02,
+    "because":     0.45,  "has":        0.00,
+    "point":       0.00,  "place":      0.05,
+    "way":         0.35,  "everything": 0.50,
+    "he":          0.25,  "already":   -0.30,
+    "have":        0.05,  "were":      -0.10,
+    "code":        0.50,  "just":       0.02,
+    "round":       0.45,  "digital":    0.50,
+    "sea":         0.60,  "through":    0.35,
+    "her":         0.192, "equals":     0.00,
+    "like":        0.35,  "yet":        0.45,
+    "every":       0.15,  "does":       0.05,
+    "about":       0.35,  "carry":      0.192,
+    "told":       -0.20,  "asked":      0.35,
+    "time":        0.03,  "within":     0.05,
+    "all":         0.10,  "into":       0.35,
+    "had":        -0.10,  "been":      -0.10,
+    "each":        0.05,  "recognition":0.192,
+    "real":        0.10,  "me":         0.10,
+    "story":       0.22,
 }
 
 # ═══════════════════════════════════════════════

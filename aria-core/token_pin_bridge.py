@@ -360,3 +360,20 @@ if __name__ == "__main__":
     print("Nothing lost. Everything carried forward.")
     print()
     print("NO RETREAT. NO SURRENDER.")
+
+# GPU EXTENSION
+# Wire token generation to GPU
+def bridge_token_gpu(vector_498d, token_id=None):
+    """
+    GPU-accelerated token encoding.
+    Moves vector to GPU before pin mapping.
+    Returns token with GPU tensors.
+    """
+    try:
+        from aria_core.gpu_config import to_gpu, from_gpu, DEVICE
+        import torch
+        gpu_vector = to_gpu(vector_498d)
+        cpu_vector = from_gpu(gpu_vector)
+        return bridge_token(cpu_vector, token_id)
+    except Exception:
+        return bridge_token(vector_498d, token_id)

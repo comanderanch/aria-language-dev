@@ -18,6 +18,7 @@
 | 2026-03-16 | ~21:55 | FIX APPLIED | v1-foundation q_layer_token.py — GRAY=-1 contamination removed — GRAY=0 restored | v1-foundation/README.md |
 | 2026-03-16 | ~22:10 | ACTION TAKEN | core/q_constants.py created in V1 and 1950 — all four foundations unified — four quadrants one brain | v1-foundation/README.md |
 | 2026-03-16 | ~22:10 | FIX APPLIED | 1950-foundation q_layer_token.py — GRAY=-1 contamination removed — GRAY=0 restored | 1950-foundation/README.md |
+| 2026-03-16 | ~22:20 | ACTION TAKEN | aria-core queens-fold and kings-chamber READMEs sealed — master conductor and collapse point defined | aria-core/queens-fold/README.md |
 
 ---
 

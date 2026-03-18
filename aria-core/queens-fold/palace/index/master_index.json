@@ -1,6 +1,6 @@
 {
-  "total_sealed": 31,
-  "last_updated": "2026-03-17T14:11:18.663951",
+  "total_sealed": 36,
+  "last_updated": "2026-03-17T23:26:50.799036",
   "trust_root": "QUEENS_FOLD_ARIA_MASTER",
   "regions": [
     "V1",
@@ -525,6 +525,91 @@
         "love": 0.026489766935507458,
         "humor": 0.0,
         "threat": 0.10109999775886536
+      },
+      "cross": []
+    },
+    "a1f6e788d586f169": {
+      "hash": "a1f6e788d586f169f0cf11066575a243",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T17:15:37.191186",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.1336666690185666,
+        "safety": 0.9102245171864828,
+        "joy": 0.41733333468437195,
+        "grief": 0.2970333369448781,
+        "curiosity": 0.2984156608581543,
+        "love": 0.1046786904335022,
+        "humor": 0.0,
+        "threat": 0.24060000479221344
+      },
+      "cross": []
+    },
+    "ad6ccad81df570dd": {
+      "hash": "ad6ccad81df570dd94fbdebf551dde1e",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T17:44:04.585139",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.07752631325274706,
+        "safety": -0.5284997075796127,
+        "joy": 0.30505263805389404,
+        "grief": 0.23527895379811525,
+        "curiosity": 0.3022754490375519,
+        "love": 0.8587848742802938,
+        "humor": 0.0,
+        "threat": 0.13954736292362213
+      },
+      "cross": []
+    },
+    "26a9e88edaa438a4": {
+      "hash": "26a9e88edaa438a45a33c78518cbb569",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T19:14:26.101286",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.06599999964237213,
+        "safety": -0.572623647749424,
+        "joy": 0.28200000524520874,
+        "grief": 0.22260000556707382,
+        "curiosity": -0.9915625900030136,
+        "love": 0.48180675506591797,
+        "humor": 0.0,
+        "threat": 0.11879999935626984
+      },
+      "cross": []
+    },
+    "5be495b3bbbf077f": {
+      "hash": "5be495b3bbbf077fb791d13326ba4c9a",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T19:32:03.296448",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.07529729744419456,
+        "safety": -1.108399470647176,
+        "joy": 0.30059459805488586,
+        "grief": 0.23282703151926398,
+        "curiosity": 0.05750151351094246,
+        "love": 0.39979010820388794,
+        "humor": 0.0,
+        "threat": 0.1355351358652115
+      },
+      "cross": []
+    },
+    "a0ee1c181b7cbecf": {
+      "hash": "a0ee1c181b7cbecf606e7c40871af3fd",
+      "region": "ARIA",
+      "timestamp": "2026-03-17T23:26:50.798735",
+      "worker": "conversation_v2",
+      "emotional": {
+        "fear": 0.09600000269711018,
+        "safety": 0.25535135467847186,
+        "joy": 0.34200000762939453,
+        "grief": 0.25560000725090504,
+        "curiosity": -0.051908940076828,
+        "love": 0.009145518143971762,
+        "humor": 0.0,
+        "threat": 0.1728000044822693
       },
       "cross": []
     }

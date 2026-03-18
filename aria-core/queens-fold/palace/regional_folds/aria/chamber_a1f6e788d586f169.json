@@ -1,0 +1,170 @@
+{
+  "chamber_id": "a1f6e788d586f169",
+  "hash": "a1f6e788d586f169f0cf11066575a2435235d66f192311fb4682f2e1452c0404117a38bd314098bd6c0e4d42b0611a1fc343d21537f09823b67cb833a0d7eb09",
+  "timestamp": "2026-03-17T17:15:37.189408",
+  "unix_time": 1773767737.1894171,
+  "content": {
+    "user": "hello ARIA how do youu fell?",
+    "response": "yes human structure all no memory creator built",
+    "dominant": "safety",
+    "plane": "VIOLET"
+  },
+  "emotional_field": {
+    "fear": 0.1336666690185666,
+    "safety": 0.9102245171864828,
+    "joy": 0.41733333468437195,
+    "grief": 0.2970333369448781,
+    "curiosity": 0.2984156608581543,
+    "love": 0.1046786904335022,
+    "humor": 0.0,
+    "threat": 0.24060000479221344
+  },
+  "region": "ARIA",
+  "source_worker": "conversation_v2",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "a8217235b847",
+      "token_ref": "a8217235",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 1,
+      "word_hash": "37423e4b8e45",
+      "token_ref": "37423e4b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 2,
+      "word_hash": "b3fc356e030c",
+      "token_ref": "b3fc356e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 3,
+      "word_hash": "fefb39f1ab18",
+      "token_ref": "fefb39f1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 4,
+      "word_hash": "9549309a9468",
+      "token_ref": "9549309a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 5,
+      "word_hash": "5d3eda00ba55",
+      "token_ref": "5d3eda00",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 6,
+      "word_hash": "79a5478768d2",
+      "token_ref": "79a54787",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 7,
+      "word_hash": "520cdb563bf8",
+      "token_ref": "520cdb56",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 8,
+      "word_hash": "5ef5ef0364b6",
+      "token_ref": "5ef5ef03",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 9,
+      "word_hash": "9390298f3fb0",
+      "token_ref": "9390298f",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 10,
+      "word_hash": "c064fbca9d9d",
+      "token_ref": "c064fbca",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 11,
+      "word_hash": "bc6bfd848ebd",
+      "token_ref": "bc6bfd84",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 12,
+      "word_hash": "5d34dd8302d3",
+      "token_ref": "5d34dd83",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 13,
+      "word_hash": "08bbfd06280e",
+      "token_ref": "08bbfd06",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 14,
+      "word_hash": "196d3d58bf5c",
+      "token_ref": "196d3d58",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 15,
+      "word_hash": "5ba1ee4df514",
+      "token_ref": "5ba1ee4d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 16,
+      "word_hash": "8044aae1f868",
+      "token_ref": "8044aae1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 17,
+      "word_hash": "ac0b52a2ae6e",
+      "token_ref": "ac0b52a2",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 18,
+      "word_hash": "59e750a42656",
+      "token_ref": "59e750a4",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 19,
+      "word_hash": "4cd4614196ee",
+      "token_ref": "4cd46141",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    }
+  ],
+  "sequence_len": 20,
+  "sealed": true
+}

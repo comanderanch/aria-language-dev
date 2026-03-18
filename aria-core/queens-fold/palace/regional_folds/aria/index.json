@@ -1,8 +1,8 @@
 {
   "region": "ARIA",
   "region_name": "prefrontal",
-  "total_seals": 29,
-  "last_updated": "2026-03-17T14:11:18.662469",
+  "total_seals": 34,
+  "last_updated": "2026-03-17T23:26:50.797227",
   "index": {
     "5d246e7887b307c4": {
       "hash": "5d246e7887b307c4ab0719acf8f17150",
@@ -203,6 +203,41 @@
     "4ae0b4287a00a83d": {
       "hash": "4ae0b4287a00a83d374050d5e55f1a14",
       "timestamp": "2026-03-17T14:11:18.659815",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "a1f6e788d586f169": {
+      "hash": "a1f6e788d586f169f0cf11066575a243",
+      "timestamp": "2026-03-17T17:15:37.189408",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "ad6ccad81df570dd": {
+      "hash": "ad6ccad81df570dd94fbdebf551dde1e",
+      "timestamp": "2026-03-17T17:44:04.576624",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "26a9e88edaa438a4": {
+      "hash": "26a9e88edaa438a45a33c78518cbb569",
+      "timestamp": "2026-03-17T19:14:26.096676",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "5be495b3bbbf077f": {
+      "hash": "5be495b3bbbf077fb791d13326ba4c9a",
+      "timestamp": "2026-03-17T19:32:03.291689",
+      "region": "ARIA",
+      "worker": "conversation_v2",
+      "dominant_emotion": "none"
+    },
+    "a0ee1c181b7cbecf": {
+      "hash": "a0ee1c181b7cbecf606e7c40871af3fd",
+      "timestamp": "2026-03-17T23:26:50.791190",
       "region": "ARIA",
       "worker": "conversation_v2",
       "dominant_emotion": "none"

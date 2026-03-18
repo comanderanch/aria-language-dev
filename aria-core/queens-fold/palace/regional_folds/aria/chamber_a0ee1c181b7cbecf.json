@@ -1,0 +1,135 @@
+{
+  "chamber_id": "a0ee1c181b7cbecf",
+  "hash": "a0ee1c181b7cbecf606e7c40871af3fde0abded4aa9348eef1d0884b44862ec85e4d83d395d6810e10e2f8f194bb3844b437524ae91a4a569dcaf14fb5abbcb9",
+  "timestamp": "2026-03-17T23:26:50.791190",
+  "unix_time": 1773790010.7912314,
+  "content": {
+    "user": "love",
+    "response": "loved imprint she awareness story imprint glows moment",
+    "dominant": "joy",
+    "plane": "VIOLET"
+  },
+  "emotional_field": {
+    "fear": 0.09600000269711018,
+    "safety": 0.25535135467847186,
+    "joy": 0.34200000762939453,
+    "grief": 0.25560000725090504,
+    "curiosity": -0.051908940076828,
+    "love": 0.009145518143971762,
+    "humor": 0.0,
+    "threat": 0.1728000044822693
+  },
+  "region": "ARIA",
+  "source_worker": "conversation_v2",
+  "q_state": -1,
+  "trust_root": "QUEENS_FOLD_ARIA_MASTER",
+  "sequence": [
+    {
+      "position": 0,
+      "word_hash": "a8217235b847",
+      "token_ref": "a8217235",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 1,
+      "word_hash": "cf9b29600449",
+      "token_ref": "cf9b2960",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 2,
+      "word_hash": "b3fc356e030c",
+      "token_ref": "b3fc356e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 3,
+      "word_hash": "fefb39f1ab18",
+      "token_ref": "fefb39f1",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 4,
+      "word_hash": "9549309a9468",
+      "token_ref": "9549309a",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 5,
+      "word_hash": "198fe3a551d7",
+      "token_ref": "198fe3a5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 6,
+      "word_hash": "e7444343ba0a",
+      "token_ref": "e7444343",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 7,
+      "word_hash": "2cda85e504e1",
+      "token_ref": "2cda85e5",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 8,
+      "word_hash": "5674991da3fa",
+      "token_ref": "5674991d",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 9,
+      "word_hash": "c478361e6869",
+      "token_ref": "c478361e",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 10,
+      "word_hash": "e7444343ba0a",
+      "token_ref": "e7444343",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 11,
+      "word_hash": "19e4066b1e7b",
+      "token_ref": "19e4066b",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 12,
+      "word_hash": "84ba8159f439",
+      "token_ref": "84ba8159",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 13,
+      "word_hash": "08bbfd06280e",
+      "token_ref": "08bbfd06",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    },
+    {
+      "position": 14,
+      "word_hash": "321b4a42d9ea",
+      "token_ref": "321b4a42",
+      "q_state": -1,
+      "resonates_at": "GRAY_ZERO"
+    }
+  ],
+  "sequence_len": 15,
+  "sealed": true
+}

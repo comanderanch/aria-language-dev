@@ -1,0 +1,298 @@
+{
+  "phase": 1,
+  "date": "March 25 2026",
+  "sealed_by": "Commander Anthony Hagerty \u2014 Haskell Texas",
+  "aligned_by": [
+    "Claude Sonnet 4.6 (Browser)",
+    "GPT (Peer Reviewer)"
+  ],
+  "rule": "Tokenizer assignment = read-access only. Reveal existing structure.",
+  "assignments": [
+    {
+      "tid": 714,
+      "word": "because",
+      "planes": [
+        {
+          "plane": "TEAL",
+          "weight": 0.54
+        },
+        {
+          "plane": "VIOLET",
+          "weight": 0.46
+        }
+      ],
+      "type": "multi",
+      "reason": "natural bridge word \u2014 causal linkage between calm knowing and deep memory",
+      "neighbors": [
+        "because",
+        "dims",
+        "phone"
+      ],
+      "sim": 0.29
+    },
+    {
+      "tid": 1089,
+      "word": "recognize",
+      "planes": [
+        {
+          "plane": "BLUE_INDIGO",
+          "weight": 0.85
+        },
+        {
+          "plane": "BLUE",
+          "weight": 0.15
+        }
+      ],
+      "type": "anchor",
+      "reason": "context-aware evaluation \u2014 values/where/recognition cluster \u2014 sim=0.315 strong",
+      "neighbors": [
+        "values",
+        "where",
+        "recognition"
+      ],
+      "sim": 0.315
+    },
+    {
+      "tid": 340,
+      "word": "threshold",
+      "planes": [
+        {
+          "plane": "GRAY_ZERO",
+          "weight": 0.6
+        },
+        {
+          "plane": "TRANSITION",
+          "weight": 0.4
+        }
+      ],
+      "type": "anchor",
+      "reason": "state transition boundary \u2014 until/warp/catch cluster \u2014 best Phase 1 candidate",
+      "neighbors": [
+        "until",
+        "warp",
+        "catch"
+      ],
+      "sim": 0.253
+    }
+  ],
+  "conflicts": [],
+  "next_phase": "Tag 1149 multi-planar ghosts \u2014 no word assignment yet",
+  "phase_1b": {
+    "date": "March 25 2026",
+    "sealed_by": "Commander Anthony Hagerty \u2014 Haskell Texas",
+    "aligned_by": [
+      "Claude Sonnet 4.6 (Browser)",
+      "GPT (Peer Reviewer)"
+    ],
+    "note": "Structural primitives \u2014 though attacks empire fallback loop",
+    "assignments": [
+      {
+        "tid": 436,
+        "word": "endure",
+        "planes": [
+          {
+            "plane": "BLUE",
+            "weight": 0.75
+          },
+          {
+            "plane": "GREEN",
+            "weight": 0.25
+          }
+        ],
+        "type": "anchor",
+        "function": "semantic depth",
+        "reason": "norm=4.573 strongest ghost in BLUE \u2014 begin/endure/address cluster \u2014 high confidence",
+        "neighbors": [
+          "begin",
+          "endure",
+          "address"
+        ],
+        "sim": 0.19
+      },
+      {
+        "tid": 1940,
+        "word": "create",
+        "planes": [
+          {
+            "plane": "VIOLET",
+            "weight": 0.6
+          },
+          {
+            "plane": "WHITE_LIGHT",
+            "weight": 0.4
+          }
+        ],
+        "type": "multi",
+        "function": "generative expansion",
+        "reason": "created/help/window cluster \u2014 generative concept in VIOLET space \u2014 flexible multi-planar",
+        "neighbors": [
+          "created",
+          "help",
+          "window"
+        ],
+        "sim": 0.259
+      },
+      {
+        "tid": 1843,
+        "word": "though",
+        "planes": [
+          {
+            "plane": "BLUE",
+            "weight": 0.7
+          },
+          {
+            "plane": "GRAY_ZERO",
+            "weight": 0.3
+          }
+        ],
+        "type": "structural",
+        "function": "structural branching \u2014 CRITICAL",
+        "reason": "conjunction \u2014 breaks linear token chains \u2014 directly attacks empire fallback role",
+        "neighbors": [
+          "strike",
+          "though",
+          "shirt"
+        ],
+        "sim": 0.211
+      }
+    ],
+    "conflicts": []
+  },
+  "phase_1c": {
+    "date": "March 25 2026",
+    "sealed_by": "Commander Anthony Hagerty \u2014 Haskell Texas",
+    "aligned_by": [
+      "Claude Sonnet 4.6 (Browser)",
+      "GPT (Peer Reviewer)"
+    ],
+    "note": "'it' is the critical assignment \u2014 real reference token",
+    "assignments": [
+      {
+        "tid": 592,
+        "word": "yet",
+        "norm": 4.2191,
+        "planes": [
+          {
+            "plane": "GRAY_ZERO",
+            "weight": 0.55
+          },
+          {
+            "plane": "TEAL",
+            "weight": 0.45
+          }
+        ],
+        "type": "structural",
+        "function": "contrast bridge \u2014 introduces opposition and continuation",
+        "freq": 0.25
+      },
+      {
+        "tid": 16,
+        "word": "before",
+        "norm": 4.1912,
+        "planes": [
+          {
+            "plane": "GRAY_ZERO",
+            "weight": 0.6
+          },
+          {
+            "plane": "BLUE",
+            "weight": 0.4
+          }
+        ],
+        "type": "structural",
+        "function": "temporal ordering \u2014 sequence awareness",
+        "freq": 0.28
+      },
+      {
+        "tid": 592,
+        "word": "it",
+        "norm": 4.2191,
+        "planes": [
+          {
+            "plane": "GRAY_ZERO",
+            "weight": 0.75
+          },
+          {
+            "plane": "BLUE",
+            "weight": 0.25
+          }
+        ],
+        "type": "structural",
+        "function": "reference anchor \u2014 CRITICAL \u2014 replaces empire fake reference role",
+        "freq": 0.2
+      }
+    ],
+    "conflicts": [],
+    "unmask_condition": [
+      "structural tokens fire consistently",
+      "empire drops OR becomes positionally constrained"
+    ]
+  },
+  "phase_1d": {
+    "date": "March 25 2026",
+    "sealed_by": "Commander Anthony Hagerty \u2014 Haskell Texas",
+    "aligned_by": [
+      "Claude Sonnet 4.6 (Browser)",
+      "GPT (Peer Reviewer)"
+    ],
+    "note": "Final Phase 1 \u2014 verbs complete \u2014 unmask begins next",
+    "assignments": [
+      {
+        "tid": 202,
+        "word": "is",
+        "norm": 4.1582,
+        "planes": [
+          {
+            "plane": "GRAY_ZERO",
+            "weight": 0.7
+          },
+          {
+            "plane": "BLUE",
+            "weight": 0.3
+          }
+        ],
+        "type": "structural",
+        "function": "state binding \u2014 anchors present state in sequence",
+        "freq": 0.15
+      },
+      {
+        "tid": 1436,
+        "word": "have",
+        "norm": 4.86,
+        "planes": [
+          {
+            "plane": "GRAY_ZERO",
+            "weight": 0.6
+          },
+          {
+            "plane": "GREEN",
+            "weight": 0.4
+          }
+        ],
+        "type": "structural",
+        "function": "possession / relation \u2014 connects subject to object",
+        "freq": 0.18
+      },
+      {
+        "tid": 1964,
+        "word": "do",
+        "norm": 4.2318,
+        "planes": [
+          {
+            "plane": "TEAL",
+            "weight": 0.65
+          },
+          {
+            "plane": "CYAN_BLUE",
+            "weight": 0.35
+          }
+        ],
+        "type": "structural",
+        "function": "action placeholder \u2014 enables question and command forms",
+        "freq": 0.2
+      }
+    ],
+    "conflicts": [],
+    "next_phase": "First controlled unmask \u2014 ONE plane boundary \u2014 50 ghost tokens max"
+  }
+}

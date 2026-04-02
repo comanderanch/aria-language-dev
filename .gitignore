@@ -41,3 +41,8 @@ myenv/
 logs/
 *.bak
 aria-core/vosk-model-small-en-us-0.15/
+aria-core/queens-fold/palace/
+aria-core/training/corpus_*.txt
+aria-core/training/filtered_corpus_backup.txt
+training_log.txt
+session_folds/

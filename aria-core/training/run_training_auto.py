@@ -24,10 +24,23 @@ NO RETREAT. NO SURRENDER. 💙🐗
 """
 
 import sys
+import fcntl
 import copy
 import hashlib
 import json
 import torch
+
+# ── PYTHON-LEVEL SINGLE INSTANCE LOCK ─────────────────────────────────
+# Prevents duplicate launches even when bypassing run_safe_training.sh
+_LOCK_PATH = "/tmp/aria_train_py.lock"
+_lock_fh = open(_LOCK_PATH, 'w')
+try:
+    fcntl.flock(_lock_fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+except BlockingIOError:
+    print("ERROR: Training already running (Python lock held). Aborting.")
+    print(f"To force reset: rm {_LOCK_PATH}")
+    sys.exit(1)
+# ── END LOCK ───────────────────────────────────────────────────────────
 import torch.nn.functional as F
 import torch.optim as optim
 import time
@@ -62,19 +75,18 @@ from aria_core.dual_verifier import watch_floor
 # CONFIGURATION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-START_ROUND   = 61       # Round 61 — post vocab patch (2049 words, 16.3% UNK)
-MAX_ROUND     = 100      # Hard ceiling
-TARGET_LOSS   = 3.5      # Stop when loss drops below this
-EPOCHS        = 3        # Epochs per round
-LR_START      = 0.00005  # lr reset for vocab relearn phase (same as Round 26)
-LR_MIN        = 0.000005 # Floor — never goes below this
+START_ROUND   = 147       # Resuming from round146_best.pt — loss 3.918522 — April 13 2026
+MAX_ROUND     = 200       # Hard ceiling
+TARGET_LOSS   = 3.50      # Stop when loss drops below this (Coherent Speech Gateway)
+EPOCHS        = 3         # Epochs per round
+LR_START      = 0.000005  # LOCKED to floor to prevent weight shattering jump
+LR_MIN        = 0.000005  # Maintenance floor
 
 CKPT_DIR = Path(__file__).parent / "checkpoints"
 
-# Learning rate schedule — decays gently each round
+# Learning rate schedule — locked at floor for stability
 def get_lr(round_num):
-    decay = 0.92 ** (round_num - START_ROUND)
-    return max(LR_MIN, LR_START * decay)
+    return LR_MIN
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -82,48 +94,97 @@ def get_lr(round_num):
 # ═══════════════════════════════════════════════════════════════════════════════
 
 class WordTokenizedDataset(torch.utils.data.Dataset):
+    """
+    Memory-efficient dataset.
+
+    OLD design: text.lower().split() → 420M Python strings (~21 GB)
+                self.sequences list  → all windows stored (~7 GB)
+                TOTAL: ~30 GB RAM on a 2.1 GB corpus — OOM every time.
+
+    NEW design: process line-by-line (no giant split)
+                store tokens as numpy uint16 (2 bytes each, ~840 MB)
+                store only start indices — windows generated on demand
+                TOTAL: ~1.5 GB RAM regardless of corpus size.
+    """
     def __init__(self, text, tokenizer, seq_length=64):
+        import array as _ca
+        import io    as _io
+        import numpy as _np
+
         self.seq_length = seq_length
-        words     = text.lower().split()
-        unk_id    = tokenizer.vocab.get("<UNK>", 2301)
-        token_ids = []
-        for word in words:
-            clean = word.strip(".,!?;:\"'()-[]{}")
-            tid   = tokenizer.vocab.get(clean, unk_id)
-            if 0 <= tid < 2304:
-                token_ids.append(tid)
-            else:
-                token_ids.append(unk_id)
+        unk_id      = tokenizer.vocab.get("<UNK>", 2301)
+        strip_chars = ".,!?;:\"'()-[]{}"
 
-        self.sequences = []
+        # ── Compact token buffer: 2 bytes per token (uint16, max 65535) ──
+        # vocab is 2049 tokens — well within uint16 range.
+        buf   = _ca.array('H')   # unsigned short, 2 bytes each
+        lines = 0
+        total_mb = len(text) / 1024 / 1024
+        print(f"  Tokenizing {total_mb:.0f} MB corpus (line by line)...", flush=True)
+
+        for line in _io.StringIO(text):
+            for word in line.lower().split():
+                clean = word.strip(strip_chars)
+                if not clean:
+                    continue
+                tid = tokenizer.vocab.get(clean, unk_id)
+                buf.append(tid if 0 <= tid < 2304 else unk_id)
+            lines += 1
+            if lines % 1_000_000 == 0:
+                print(f"    {lines:,} lines | {len(buf):,} tokens", flush=True)
+
+        # Convert once to numpy — 2 bytes/token vs 28 bytes for Python int
+        import numpy as np
+        self.tokens = np.frombuffer(buf, dtype=np.uint16).copy()
+        del buf
+
+        # Store only start positions — windows built on demand in __getitem__
         stride = seq_length // 2
-        for i in range(0, len(token_ids) - seq_length, stride):
-            seq = token_ids[i:i + seq_length + 1]
-            if len(seq) == seq_length + 1:
-                self.sequences.append(seq)
+        n = len(self.tokens)
+        self.starts = np.arange(0, n - seq_length, stride, dtype=np.int32)
 
-    def __len__(self): return len(self.sequences)
+        print(f"  Tokenized: {lines:,} lines → {n:,} tokens → {len(self.starts):,} sequences", flush=True)
+
+    def __len__(self):
+        return len(self.starts)
 
     def __getitem__(self, idx):
-        seq = self.sequences[idx]
-        return (torch.tensor(seq[:-1], dtype=torch.long),
-                torch.tensor(seq[1:],  dtype=torch.long))
+        import numpy as np
+        s   = int(self.starts[idx])
+        seq = self.tokens[s : s + self.seq_length + 1].astype(np.int64)
+        return (torch.from_numpy(seq[:-1].copy()),
+                torch.from_numpy(seq[1:].copy()))
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# LOAD CORPUS — once — shared across all rounds
+# LOAD CORPUS — Merging TinyStories and WildChat
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def load_corpus():
-    training_dir    = Path(__file__).parent
-    filtered_corpus = training_dir / "filtered_corpus.txt"
-    aria_dir        = training_dir.parent
+    training_dir = Path(__file__).parent
+    files = ["corpus_tinystories.txt", "corpus_wildchat.txt"]
 
-    if filtered_corpus.exists():
-        size_mb = filtered_corpus.stat().st_size / (1024 * 1024)
-        print(f"  Corpus: {filtered_corpus.name} ({size_mb:.1f} MB)")
-        return filtered_corpus.read_text(encoding='utf-8', errors='replace')
+    # RAM guard — until 80GB sticks arrive keep corpus below 2GB in RAM.
+    # At ~47GB installed, loading 5GB text spikes swap heavily.
+    # This reads only the first MAX_CORPUS_MB of each file (streaming, not read_text).
+    MAX_CORPUS_MB = 1800   # MB per file — adjust upward when 80GB RAM arrives
 
+    texts = []
+
+    for fname in files:
+        p = training_dir / fname
+        if p.exists():
+            size_mb = p.stat().st_size / (1024 * 1024)
+            read_mb  = min(size_mb, MAX_CORPUS_MB)
+            max_bytes = int(read_mb * 1024 * 1024)
+            print(f"  Merging Corpus: {fname} ({size_mb:.1f} MB — reading {read_mb:.0f} MB)")
+            with open(p, 'r', encoding='utf-8', errors='replace') as f:
+                texts.append(f.read(max_bytes))
+
+    if texts:
+        return "\n\n".join(texts)
+
+    aria_dir = training_dir.parent
     paths = [
         aria_dir / "ARIA_SEED_STORY.md",
         training_dir / "round2_training_data.md",
@@ -137,7 +198,7 @@ def load_corpus():
 # SINGLE ROUND TRAINER
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def run_round(round_num, start_ckpt_path, tokenizer, corpus_text, vocab_mask):
+def run_round(round_num, start_ckpt_path, tokenizer, vocab_mask, dataset, total_batches):
     save_path = CKPT_DIR / f"round{round_num}_best.pt"
     lr        = get_lr(round_num)
 
@@ -150,9 +211,10 @@ def run_round(round_num, start_ckpt_path, tokenizer, corpus_text, vocab_mask):
     model.load_state_dict(ckpt["model_state"])
     prev_loss = ckpt.get("best_loss", float('inf'))
     print(f"  Start loss: {prev_loss:.6f}")
+    print(f"  Sequences:  {len(dataset):,}  |  Batches/epoch: {total_batches:,}")
 
-    dataset = WordTokenizedDataset(corpus_text, tokenizer, seq_length=64)
-    loader  = torch.utils.data.DataLoader(
+    # Dataset is built once and reused — do not rebuild here
+    loader = torch.utils.data.DataLoader(
         dataset, batch_size=BATCH_SIZE_TRAINING, shuffle=True,
         num_workers=4, pin_memory=True
     )
@@ -175,7 +237,12 @@ def run_round(round_num, start_ckpt_path, tokenizer, corpus_text, vocab_mask):
         n_batches   = 0
         epoch_nulls = 0
 
-        for inputs, targets in loader:
+        import contextlib, io as _sio
+        PRINT_EVERY = max(1, total_batches // 200)  # ~200 updates per epoch
+        epoch_start_t = time.time()
+        print(f"\n  ── Epoch {epoch}/{EPOCHS} starting ── {datetime.now().strftime('%H:%M:%S')} ──", flush=True)
+
+        for batch_idx, (inputs, targets) in enumerate(loader, 1):
             inputs  = inputs.to(DEVICE)
             targets = targets.to(DEVICE)
             opt.zero_grad()
@@ -185,7 +252,9 @@ def run_round(round_num, start_ckpt_path, tokenizer, corpus_text, vocab_mask):
             candidate, rejection = attempt_generation(window, null_field)
 
             if candidate is not None:
-                floor = watch_floor(null_field, action_triggered=True)
+                # Suppress per-batch FLOOR STABLE print — summarised at epoch end
+                with contextlib.redirect_stdout(_sio.StringIO()):
+                    floor = watch_floor(null_field, action_triggered=True)
                 if floor["floor_stable"]:
                     condition_data = {
                         "frequency":   null_field["frequency"],
@@ -230,7 +299,20 @@ def run_round(round_num, start_ckpt_path, tokenizer, corpus_text, vocab_mask):
             last_targets = targets.detach()
             last_logits  = masked.detach()
 
+            if batch_idx % PRINT_EVERY == 0 or batch_idx == total_batches:
+                running_avg  = total_loss / n_batches
+                pct          = batch_idx / total_batches * 100
+                elapsed_e    = time.time() - epoch_start_t
+                bps          = batch_idx / max(elapsed_e, 0.001)
+                remaining    = (total_batches - batch_idx) / max(bps, 0.001)
+                eta_min      = int(remaining // 60)
+                eta_sec      = int(remaining % 60)
+                print(f"    Ep {epoch}/{EPOCHS} | {batch_idx:>7,}/{total_batches:,} ({pct:5.1f}%)"
+                      f" | loss={running_avg:.6f} | {bps:,.0f} b/s | ETA {eta_min}m{eta_sec:02d}s",
+                      flush=True)
+
         sch.step()
+        epoch_elapsed = time.time() - epoch_start_t
         avg_loss = total_loss / max(n_batches, 1)
         null_confirmed_total += epoch_nulls
 
@@ -238,10 +320,11 @@ def run_round(round_num, start_ckpt_path, tokenizer, corpus_text, vocab_mask):
         if avg_loss < best_loss:
             best_loss  = avg_loss
             best_state = copy.deepcopy(model.state_dict())
-            improved   = " <- NEW BEST"
+            improved   = " ← NEW BEST"
 
-        print(f"  Epoch {epoch}/{EPOCHS} | Loss: {avg_loss:.6f} | "
-              f"Nulls: {epoch_nulls} | Best: {best_loss:.6f}{improved}")
+        print(f"\n  ✔ Epoch {epoch}/{EPOCHS} done in {epoch_elapsed/60:.1f}min"
+              f" | Loss: {avg_loss:.6f} | Nulls: {epoch_nulls} | Best: {best_loss:.6f}{improved}",
+              flush=True)
 
         if last_logits is not None:
             trail.log_batch(
@@ -301,6 +384,15 @@ if __name__ == "__main__":
     print(f"  Corpus loaded.")
     print()
 
+    # Build dataset ONCE — reused every round, not rebuilt each time.
+    # Old design rebuilt the dataset per round = 30+ GB RAM spike each round.
+    print("Building dataset (one time only — shared across all rounds)...")
+    shared_dataset = WordTokenizedDataset(corpus_text, tokenizer, seq_length=64)
+    # Free the raw corpus text — dataset holds the compact numpy form.
+    del corpus_text
+    shared_total_batches = (len(shared_dataset) + BATCH_SIZE_TRAINING - 1) // BATCH_SIZE_TRAINING
+    print()
+
     # Find starting checkpoint
     prev_ckpt = None
     for candidate in [
@@ -326,7 +418,8 @@ if __name__ == "__main__":
 
     for round_num in range(START_ROUND, MAX_ROUND + 1):
         loss, ckpt_path = run_round(
-            round_num, prev_ckpt, tokenizer, corpus_text, vocab_mask
+            round_num, prev_ckpt, tokenizer, vocab_mask,
+            shared_dataset, shared_total_batches
         )
         round_log.append((round_num, loss))
         prev_ckpt = ckpt_path

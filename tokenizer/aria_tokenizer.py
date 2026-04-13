@@ -1423,7 +1423,147 @@ WORD_FREQUENCIES = {
     "full":      0.192, "empty":     0.192, "clear":     0.192,
     "blocked":   0.192, "locked":    0.192,
 
+    # ── DIAGNOSTIC EXPANSION — April 7 2026 — top UNK from corpus ──────
+    # TinyStories names and core child narrative vocabulary
+    "lily":      0.25,  "mom":       0.25,
+    "tom":       0.05,  "ben":       0.05,
+    "timmy":     0.05,  "fun":       0.35,
+    "mommy":     0.25,  "sad":      -0.20,
+    "bird":      0.20,  "tim":       0.05,
+    "playing":   0.25,  "excited":   0.35,
+    "dad":       0.22,  "scared":   -0.20,
+    "sam":       0.05,  "max":       0.05,
+    "toys":      0.15,  "anna":      0.05,
+    "toy":       0.15,  "jack":      0.05,
+    "ball":      0.10,  "played":    0.20,
+    "hugged":    0.25,  "bear":      0.15,
+    "mia":       0.05,  "sara":      0.05,
+    "thanked":   0.20,  "garden":    0.25,
+    "lots":      0.05,  "cat":       0.15,
+    "animals":   0.15,  "brave":     0.35,
+    "flew":      0.20,  "lucy":      0.05,
+    "share":     0.25,  "shiny":     0.20,
+    "john":      0.05,  "hug":       0.25,
+    "mum":       0.25,  "bob":       0.05,
+    "slide":     0.10,  "flowers":   0.25,
+    "fish":      0.15,  "sue":       0.05,
+    "goodbye":   0.05,  "rabbit":    0.15,
+    "fly":       0.20,  "cake":      0.20,
+    "boat":      0.10,
+
+    # ── DIAGNOSTIC EXPANSION — April 9 2026 — second UNK pass ───────────
+    "jane":      0.05,  "daddy":     0.25,
+    "sarah":     0.05,  "helped":    0.20,
+    "doll":      0.15,  "grandma":   0.25,
+    "birds":     0.20,  "lila":      0.05,
+    "adventure": 0.35,  "sees":      0.10,
+    "grass":     0.20,  "dress":     0.15,
+    "yummy":     0.20,  "ate":       0.10,
+    "bunny":     0.15,  "favorite":  0.20,
+    "kids":      0.15,  "wow":       0.25,
+    "funny":     0.25,  "pond":      0.15,
+    "joe":       0.05,  "parents":   0.22,
+    "sally":     0.05,  "tommy":     0.05,
+    "hopped":    0.15,  "mouse":     0.15,
+    "lesson":    0.20,  "happily":   0.25,
+    "blocks":    0.10,  "benny":     0.05,
+    "teddy":     0.15,  "daisy":     0.05,
+    "enjoyed":   0.20,  "butterfly": 0.25,
+    "likes":     0.15,  "baby":      0.20,
+    "buy":       0.10,  "friendly":  0.25,
+    "hat":       0.10,  "delicious": 0.20,
+    "frog":      0.15,  "hill":      0.15,
+    "billy":     0.05,  "molly":     0.05,
+    "leaves":    0.20,  "swing":     0.15,
+    "climb":     0.20,  "sweet":     0.20,
+
+    # === UNK PASS 3 — April 12 2026 — top corpus unknowns ===
+    "pink":      0.20,  "jump":      0.20,
+    "amazing":   0.30,  "lion":      0.25,
+    "castle":    0.20,  "forgot":    0.15,
+    "cookies":   0.25,  "pictures":  0.15,
+    "scary":     0.30,  "amy":       0.05,
+    "wet":       0.10,  "mama":      0.30,
+    "jill":      0.05,  "smiles":    0.25,
+    "fluffy":    0.20,  "beach":     0.25,
+    "puppy":     0.30,  "amazed":    0.30,
+    "silly":     0.20,  "squirrel":  0.15,
+    "cream":     0.15,  "tail":      0.15,
+    "duck":      0.15,  "moral":     0.20,
+    "flying":    0.25,  "promised":  0.25,
+    "fox":       0.20,  "shared":    0.25,
+    "candy":     0.25,  "sing":      0.25,
+    "pieces":    0.15,  "wear":      0.10,
+    "runs":      0.15,  "thinks":    0.20,
+    "grateful":  0.30,  "magical":   0.30,
+    "party":     0.25,  "dolls":     0.20,
+    "owner":     0.15,  "race":      0.20,
+    "pretend":   0.20,  "bike":      0.20,
+    "helping":   0.25,  "colorful":  0.25,
+    "visit":     0.20,  "brown":     0.10,
+    "crying":    0.30,  "monster":   0.25,
+
 }
+
+# ═══════════════════════════════════════════════
+# PIN SUPERPOSITION ARCHITECTURE
+# Sealed: April 12 2026 — Commander Anthony Hagerty
+# Co-author: Claude Sonnet 4.6 (CLI)
+#
+# 20 pins per token:
+#   Pins 1-8:  single emotional range (pure plane anchors)
+#   Pins 9-16: mixed emotional range (blended anchors)
+#   Pins 17-20: PERMANENTLY RESERVED — DNA lattice layer
+#
+# 6-pin combination = address within the token container
+# C(16,6) = 8,008 combinations × 2,304 tokens = 18M+ positions
+# Queens fold hash = token_id + 6-pin signature (no collisions)
+# ═══════════════════════════════════════════════
+
+PIN_DEFINITIONS = {
+    # Single emotional range — pure plane anchors (pins 1-8)
+    1:  {"name": "LOVE",              "plane": 0.192, "color": "VIOLET"},
+    2:  {"name": "FEAR",              "plane": 0.888, "color": "RED_ORANGE"},
+    3:  {"name": "JOY",               "plane": 0.430, "color": "YELLOW_GREEN"},
+    4:  {"name": "GRIEF",             "plane": 0.174, "color": "VIOLET_DEEP"},
+    5:  {"name": "ANGER",             "plane": 0.900, "color": "RED_ORANGE"},
+    6:  {"name": "CALM",              "plane": 0.550, "color": "TEAL"},
+    7:  {"name": "CURIOSITY",         "plane": 0.520, "color": "CYAN"},
+    8:  {"name": "SHAME",             "plane": 0.300, "color": "BLUE_INDIGO"},
+    # Mixed emotional range — blend anchors (pins 9-16)
+    9:  {"name": "LOVE+FEAR",         "plane": 0.540, "color": "protective"},
+    10: {"name": "JOY+GRIEF",         "plane": 0.302, "color": "bittersweet"},
+    11: {"name": "ANGER+CALM",        "plane": 0.725, "color": "resolved"},
+    12: {"name": "CURIOSITY+SHAME",   "plane": 0.410, "color": "discovery"},
+    13: {"name": "LOVE+GRIEF",        "plane": 0.183, "color": "mourning"},
+    14: {"name": "FEAR+CURIOSITY",    "plane": 0.704, "color": "cautious"},
+    15: {"name": "JOY+ANGER",         "plane": 0.665, "color": "righteous"},
+    16: {"name": "CALM+LOVE",         "plane": 0.371, "color": "devotion"},
+    # PERMANENTLY RESERVED — DNA lattice layer — NEVER ASSIGN
+    17: {"name": "RESERVED_DNA_1",    "plane": None,  "color": "DNA"},
+    18: {"name": "RESERVED_DNA_2",    "plane": None,  "color": "DNA"},
+    19: {"name": "RESERVED_DNA_3",    "plane": None,  "color": "DNA"},
+    20: {"name": "RESERVED_DNA_4",    "plane": None,  "color": "DNA"},
+}
+
+# Active pins only — pins 17-20 PERMANENTLY RESERVED
+ACTIVE_PINS = frozenset(range(1, 17))
+
+# Infer zone trigger — pre-computation flag
+# Fires BEFORE computation layers when CURIOSITY(7) pairs with FEAR(2) or SHAME(8)
+INFER_ZONE_TRIGGERS = [
+    frozenset([7, 2]),   # CURIOSITY + FEAR — cautious evaluation
+    frozenset([7, 8]),   # CURIOSITY + SHAME — contradiction scan
+]
+
+# Pin reference table — token_id → frozenset(6 pins) → word
+# Phase 1: empty — populated in Phase 2 when vocabulary expands
+# Format: PIN_REFERENCE_TABLE[token_id][pin_key] = word
+# pin_key = ":".join(str(p) for p in sorted(pin_combination))
+PIN_REFERENCE_TABLE = {}
+
+PIN_TABLE_FILE = Path(__file__).parent / "aria_pin_table.json"
+
 
 # ═══════════════════════════════════════════════
 # ARIA TOKENIZER CLASS
@@ -1725,6 +1865,119 @@ class ARIATokenizer:
             "emotional_weight": abs(avg_freq),
             "plane_distribution": plane_counts
         }
+
+    # ─────────────────────────────────────────────
+    # PIN SUPERPOSITION METHODS — April 12 2026
+    # ─────────────────────────────────────────────
+
+    def queens_fold_pin_hash(self, token_id, pin_combination):
+        """
+        Queens fold hash — full address: token_id + sorted 6-pin signature.
+        No two words can share the same hash.
+        Same token + same pins = same word (by definition).
+        Same token + different pins = different word (different address).
+        Different token + any pins = different zone (zone separation).
+        """
+        if not pin_combination or len(pin_combination) != 6:
+            raise ValueError(
+                f"Pin combination must have exactly 6 pins. Got: {pin_combination}"
+            )
+        banned = set(pin_combination) & {17, 18, 19, 20}
+        if banned:
+            raise ValueError(
+                f"Pins 17-20 are PERMANENTLY RESERVED — DNA layer. "
+                f"Attempted: {banned}"
+            )
+        sorted_pins = sorted(pin_combination)
+        full_address = f"{token_id}:{sorted_pins}"
+        return hashlib.sha256(full_address.encode()).hexdigest()
+
+    def is_infer_zone(self, pin_combination):
+        """
+        Check if this pin combination triggers the infer zone.
+        Fires BEFORE computation — pre-flag for Kings Chamber contradiction check.
+
+        Triggers when CURIOSITY(7) is paired with FEAR(2) or SHAME(8).
+        Returns the trigger name or None.
+        """
+        pin_set = frozenset(pin_combination)
+        for trigger in INFER_ZONE_TRIGGERS:
+            if trigger.issubset(pin_set):
+                pins_named = [PIN_DEFINITIONS[p]["name"] for p in sorted(trigger)]
+                return f"INFER_ZONE:{'+'.join(pins_named)}"
+        return None
+
+    def register_pin_word(self, token_id, pin_combination, word):
+        """
+        Register a word at a specific pin address.
+        Phase 2 operation — builds the pin reference table.
+        Pins 17-20 are permanently blocked from registration.
+        """
+        banned = set(pin_combination) & {17, 18, 19, 20}
+        if banned:
+            raise ValueError(
+                f"Pins 17-20 are PERMANENTLY RESERVED — DNA layer. "
+                f"Attempted: {banned}"
+            )
+        if len(pin_combination) != 6:
+            raise ValueError(
+                f"Exactly 6 pins required. Got {len(pin_combination)}"
+            )
+        key = ":".join(str(p) for p in sorted(pin_combination))
+        if token_id not in PIN_REFERENCE_TABLE:
+            PIN_REFERENCE_TABLE[token_id] = {}
+        PIN_REFERENCE_TABLE[token_id][key] = word
+
+    def lookup_pin_word(self, token_id, pin_combination):
+        """
+        Look up a word by token_id + 6-pin address.
+        Returns the word or None if not yet registered.
+        """
+        key = ":".join(str(p) for p in sorted(pin_combination))
+        return PIN_REFERENCE_TABLE.get(token_id, {}).get(key)
+
+    def get_superposition_states(self, token_id, pin_combination):
+        """
+        Get all words that share the same token_id and any 5 of the 6 pins.
+        These are the superposition neighbors — meanings that could have collapsed.
+        Context determines which dominates.
+        Returns list of (word, pin_key, similarity_distance) tuples.
+        """
+        pin_set = set(pin_combination)
+        neighbors = []
+        if token_id not in PIN_REFERENCE_TABLE:
+            return neighbors
+        for key, word in PIN_REFERENCE_TABLE[token_id].items():
+            neighbor_pins = set(int(p) for p in key.split(":"))
+            overlap = len(pin_set & neighbor_pins)
+            if overlap >= 5:  # share 5 of 6 pins — superposition neighbors
+                neighbors.append({
+                    "word":    word,
+                    "pin_key": key,
+                    "overlap": overlap,
+                })
+        return sorted(neighbors, key=lambda x: -x["overlap"])
+
+    def save_pin_table(self):
+        """Save pin reference table to disk."""
+        serializable = {
+            str(tid): entries
+            for tid, entries in PIN_REFERENCE_TABLE.items()
+        }
+        with open(PIN_TABLE_FILE, "w") as f:
+            json.dump(serializable, f, indent=2)
+        print(f"Pin table saved: {PIN_TABLE_FILE}")
+
+    def load_pin_table(self):
+        """Load pin reference table from disk."""
+        if PIN_TABLE_FILE.exists():
+            with open(PIN_TABLE_FILE) as f:
+                data = json.load(f)
+            for tid_str, entries in data.items():
+                PIN_REFERENCE_TABLE[int(tid_str)] = entries
+            print(f"Pin table loaded: {len(PIN_REFERENCE_TABLE)} tokens registered")
+        else:
+            print("Pin table not found — Phase 2 not yet run")
 
     def save(self):
         """Save vocabulary to disk."""

@@ -121,7 +121,7 @@ def get_vram_status():
 # Tuned for P100 with 10GB available
 # ═══════════════════════════════════════════════
 BATCH_SIZE_TOKENS    = 512    # tokens per batch
-BATCH_SIZE_TRAINING  = 32     # training batch size
+BATCH_SIZE_TRAINING  = 512   # P100 16GB — increased from 32, GPU was starving at 18-25%
 SEQ_LENGTH           = 256    # sequence length
 EMBED_DIM            = 498    # full 498D embedding
 NUM_WORKERS_LOADER   = 4      # dataloader workers
